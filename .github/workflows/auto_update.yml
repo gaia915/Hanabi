@@ -1,0 +1,46 @@
+name: 自動動画収集・最新情報更新
+
+on:
+  schedule:
+    # 毎日 日本時間 09:00 と 21:00 (UTC 00:00, 12:00) に自動実行
+    - cron: '0 0,12 * * *'
+  # GitHubのActionsタブから手動でいつでも即時実行可能
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-videos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリのチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python環境のセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 依存ライブラリのインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: 最新花火動画の自動収集・更新スクリプト実行
+        run: |
+          python scripts/update_videos.py
+
+      - name: 変更があった場合に自動コミット＆プッシュ
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ src/data/
+          if git diff --staged --quiet; then
+            echo "新しい動画の更新はありませんでした。"
+          else
+            git commit -m "chore(auto-update): 花火動画の最新情報を自動更新 [skip ci]"
+            git push
+          fi

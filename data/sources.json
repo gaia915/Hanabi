@@ -1,0 +1,82 @@
+{
+  "youtube_channels": [
+    {
+      "name": "長岡花火公式 (一般財団法人長岡花火財団)",
+      "channel_id": "UCt7QSdNITWlwCqmBm99lQtw",
+      "default_category": "長岡まつり大花火大会",
+      "default_region": "新潟県"
+    }
+  ],
+  "youtube_search_queries": [
+    {
+      "query": "花火大会 4K 絶景",
+      "default_category": "全国有名花火大会",
+      "max_results": 8
+    },
+    {
+      "query": "長岡花火 フェニックス 4K",
+      "default_category": "長岡まつり大花火大会",
+      "max_results": 6
+    },
+    {
+      "query": "大曲の花火 大会提供 4K",
+      "default_category": "大曲の花火（全国花火競技大会）",
+      "max_results": 6
+    },
+    {
+      "query": "隅田川花火大会 4K",
+      "default_category": "隅田川花火大会",
+      "max_results": 5
+    },
+    {
+      "query": "花火 #Shorts",
+      "default_category": "日本の花火厳選",
+      "max_results": 5
+    }
+  ],
+  "tiktok_videos": [
+    {
+      "url": "https://www.tiktok.com/@yasu52755",
+      "title": "花火の動画",
+      "author_name": "クリエイター名",
+      "category": "長岡まつり大花火大会",
+      "region": "日本"
+    },
+    {
+      "url": "https://www.tiktok.com/@fireworks_japan/video/7257912440156376322",
+      "title": "日本屈指の美しさ！夜空に咲く巨大な大輪スターマイン🎆 #花火 #fireworks #花火大会 #japan",
+      "category": "全国有名花火大会",
+      "region": "日本",
+      "author_name": "Japan Fireworks",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?w=800&auto=format&fit=crop"
+    },
+    {
+      "url": "https://www.tiktok.com/@nagaoka_fan/video/7262804593450372353",
+      "title": "視界180度を超える復興祈願花火フェニックスの迫力！鳥肌が止まらない… #長岡花火 #フェニックス",
+      "category": "長岡まつり大花火大会",
+      "region": "新潟県",
+      "author_name": "長岡花火ファン",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop"
+    },
+    {
+      "url": "https://www.tiktok.com/@japan_night_view/video/7271928401928374529",
+      "title": "大曲の花火！最高峰の技術が詰まった光と音楽のシンフォニー #大曲の花火 #花火競技大会",
+      "category": "大曲の花火（全国花火競技大会）",
+      "region": "秋田県",
+      "author_name": "Japan Night View",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=800&auto=format&fit=crop"
+    }
+  ],
+  "categories": [
+    "長岡まつり大花火大会",
+    "大曲の花火（全国花火競技大会）",
+    "隅田川花火大会",
+    "土浦全国花火競技大会",
+    "神宮外苑花火大会",
+    "熱海海上花火大会",
+    "びわ湖大花火大会",
+    "全国有名花火大会",
+    "日本の花火厳選",
+    "その他"
+  ]
+}
