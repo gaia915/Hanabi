@@ -6,24 +6,31 @@ import { VideoCard } from './components/VideoCard';
 import { VideoModal } from './components/VideoModal';
 import { AddSourceModal } from './components/AddSourceModal';
 import { AutomationGuideModal } from './components/AutomationGuideModal';
-import type { HanabiVideo, Platform, AggregatorStats } from './types';
+import { ChannelRanking } from './components/ChannelRanking';
+import type { HanabiVideo, Platform, AggregatorStats, ChannelStats } from './types';
+import { Film, Trophy } from 'lucide-react';
 
 // 静的JSONデータのインポート
 import initialVideos from './data/videos.json';
 import initialStats from './data/stats.json';
+import initialChannels from './data/channels.json';
 
 const FAVORITES_KEY = 'hanabi_archive_favorites';
 
 export const App: React.FC = () => {
   const [videos] = useState<HanabiVideo[]>(initialVideos as HanabiVideo[]);
   const [stats] = useState<AggregatorStats | null>(initialStats as AggregatorStats);
+  const [channels] = useState<ChannelStats[]>(initialChannels as ChannelStats[]);
+
+  // Navigation tab ('videos' | 'ranking')
+  const [currentView, setCurrentView] = useState<'videos' | 'ranking'>('videos');
 
   // Filters & Search
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedPlatform, setSelectedPlatform] = useState<Platform | 'all'>('all');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
-  const [sortBy, setSortBy] = useState<'latest' | 'oldest' | 'title'>('latest');
+  const [sortBy, setSortBy] = useState<'latest' | 'oldest' | 'title' | 'views' | 'comments'>('latest');
 
   // Favorites (LocalStorage)
   const [favorites, setFavorites] = useState<string[]>(() => {
@@ -79,6 +86,13 @@ export const App: React.FC = () => {
       .map(entry => entry[0]);
   }, [videos]);
 
+  // When a channel is selected from Ranking
+  const handleSelectChannel = (channelName: string) => {
+    setSearchQuery(channelName);
+    setCurrentView('videos');
+    window.scrollTo({ top: 350, behavior: 'smooth' });
+  };
+
   // Filter & Sort Logic
   const filteredVideos = useMemo(() => {
     return videos.filter(video => {
@@ -124,6 +138,12 @@ export const App: React.FC = () => {
 
       return true;
     }).sort((a, b) => {
+      if (sortBy === 'views') {
+        return (b.viewCount || 0) - (a.viewCount || 0);
+      }
+      if (sortBy === 'comments') {
+        return (b.commentCount || 0) - (a.commentCount || 0);
+      }
       if (sortBy === 'title') {
         return a.title.localeCompare(b.title, 'ja');
       }
@@ -166,6 +186,9 @@ export const App: React.FC = () => {
         showFavoritesOnly={showFavoritesOnly}
         onToggleFavorites={() => setShowFavoritesOnly(prev => !prev)}
         favoritesCount={favorites.length}
+        onGoHome={() => setCurrentView('videos')}
+        onGoRanking={() => setCurrentView('ranking')}
+        currentView={currentView}
       />
 
       <main className="flex-1 relative z-10 pb-16">
@@ -176,55 +199,93 @@ export const App: React.FC = () => {
           onRefreshClick={() => setIsGuideModalOpen(true)}
         />
 
-        {/* Filter Controls */}
-        <FilterBar
-          categories={categories}
-          selectedCategory={selectedCategory}
-          onSelectCategory={setSelectedCategory}
-          selectedPlatform={selectedPlatform}
-          onSelectPlatform={setSelectedPlatform}
-          sortBy={sortBy}
-          onSelectSort={setSortBy}
-          selectedTag={selectedTag}
-          onSelectTag={setSelectedTag}
-          popularTags={popularTags}
-          totalFilteredCount={filteredVideos.length}
-          onResetFilters={handleResetFilters}
-          hasActiveFilters={hasActiveFilters}
-        />
-
-        {/* Video Grid */}
+        {/* View Switch Tabs (Videos vs Ranking) */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-          {filteredVideos.length === 0 ? (
-            <div className="glass-card rounded-2xl p-12 text-center max-w-md mx-auto my-12 space-y-4">
-              <div className="w-14 h-14 mx-auto rounded-full bg-night-900 border border-white/10 flex items-center justify-center text-slate-400">
-                🔍
-              </div>
-              <h3 className="text-base font-bold text-white">該当する花火動画が見つかりませんでした</h3>
-              <p className="text-xs text-slate-400">
-                検索キーワードやフィルタ条件を変更してお試しください。
-              </p>
-              <button
-                onClick={handleResetFilters}
-                className="px-4 py-2 text-xs font-semibold rounded-xl bg-spark-coral text-white shadow-lg hover:opacity-95 transition-all"
-              >
-                すべての動画を表示する
-              </button>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-              {filteredVideos.map((video) => (
-                <VideoCard
-                  key={video.id}
-                  video={video}
-                  onPlay={setActiveVideo}
-                  isFavorite={favorites.includes(video.id)}
-                  onToggleFavorite={toggleFavorite}
-                />
-              ))}
-            </div>
-          )}
+          <div className="flex items-center gap-2 border-b border-white/10 pb-3">
+            <button
+              onClick={() => setCurrentView('videos')}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm transition-all ${
+                currentView === 'videos'
+                  ? 'bg-gradient-to-r from-spark-coral to-spark-purple text-white shadow-lg shadow-spark-coral/20'
+                  : 'bg-night-900/60 text-slate-400 hover:text-white border border-white/5'
+              }`}
+            >
+              <Film className="w-4 h-4" />
+              花火動画一覧 ({videos.length}本)
+            </button>
+            <button
+              onClick={() => setCurrentView('ranking')}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm transition-all ${
+                currentView === 'ranking'
+                  ? 'bg-gradient-to-r from-spark-gold to-spark-coral text-night-950 font-black shadow-lg shadow-spark-gold/20'
+                  : 'bg-night-900/60 text-slate-400 hover:text-white border border-white/5'
+              }`}
+            >
+              <Trophy className="w-4 h-4 text-spark-gold" />
+              チャンネル PV・コメントランキング ({channels.length})
+            </button>
+          </div>
         </div>
+
+        {/* Dynamic View Display */}
+        {currentView === 'ranking' ? (
+          <ChannelRanking
+            channels={channels}
+            onSelectChannel={handleSelectChannel}
+          />
+        ) : (
+          <>
+            {/* Filter Controls */}
+            <FilterBar
+              categories={categories}
+              selectedCategory={selectedCategory}
+              onSelectCategory={setSelectedCategory}
+              selectedPlatform={selectedPlatform}
+              onSelectPlatform={setSelectedPlatform}
+              sortBy={sortBy}
+              onSelectSort={setSortBy}
+              selectedTag={selectedTag}
+              onSelectTag={setSelectedTag}
+              popularTags={popularTags}
+              totalFilteredCount={filteredVideos.length}
+              onResetFilters={handleResetFilters}
+              hasActiveFilters={hasActiveFilters}
+            />
+
+            {/* Video Grid */}
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+              {filteredVideos.length === 0 ? (
+                <div className="glass-card rounded-2xl p-12 text-center max-w-md mx-auto my-12 space-y-4">
+                  <div className="w-14 h-14 mx-auto rounded-full bg-night-900 border border-white/10 flex items-center justify-center text-slate-400 text-2xl">
+                    🔍
+                  </div>
+                  <h3 className="text-base font-bold text-white">該当する花火動画が見つかりませんでした</h3>
+                  <p className="text-xs text-slate-400">
+                    検索キーワードやフィルタ条件を変更してお試しください。
+                  </p>
+                  <button
+                    onClick={handleResetFilters}
+                    className="px-4 py-2 text-xs font-semibold rounded-xl bg-spark-coral text-white shadow-lg hover:opacity-95 transition-all"
+                  >
+                    すべての動画を表示する
+                  </button>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                  {filteredVideos.map((video) => (
+                    <VideoCard
+                      key={video.id}
+                      video={video}
+                      onPlay={setActiveVideo}
+                      isFavorite={favorites.includes(video.id)}
+                      onToggleFavorite={toggleFavorite}
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
+          </>
+        )}
 
       </main>
 
@@ -235,6 +296,13 @@ export const App: React.FC = () => {
             <span className="font-bold text-slate-200">HANABI ARCHIVE</span> - 花火動画キュレーション・自動更新システム
           </div>
           <div className="flex items-center gap-4">
+            <button
+              onClick={() => setCurrentView('ranking')}
+              className="hover:text-white transition-colors flex items-center gap-1 text-spark-gold"
+            >
+              <Trophy className="w-3.5 h-3.5" />
+              チャンネルランキング
+            </button>
             <button
               onClick={() => setIsGuideModalOpen(true)}
               className="hover:text-white transition-colors"
@@ -248,12 +316,12 @@ export const App: React.FC = () => {
               ソース設定
             </button>
             <a
-              href="https://github.com"
+              href="https://github.com/gaia915/Hanabi"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
             >
-              GitHub Actions Cron
+              GitHub リポジトリ
             </a>
           </div>
         </div>

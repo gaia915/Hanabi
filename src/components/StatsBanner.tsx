@@ -1,5 +1,5 @@
 import React from 'react';
-import { RefreshCw, PlaySquare, Film, Video, Calendar } from 'lucide-react';
+import { RefreshCw, PlaySquare, Film, Video, Calendar, Eye, MessageSquare } from 'lucide-react';
 import type { AggregatorStats } from '../types';
 
 interface StatsBannerProps {
@@ -56,34 +56,58 @@ export const StatsBanner: React.FC<StatsBannerProps> = ({ stats, onRefreshClick 
           </div>
 
           {/* Quick Metrics */}
-          <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
-            <div className="flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
-              <div className="p-2 rounded-lg bg-spark-gold/15 text-spark-gold">
-                <Video className="w-4 h-4" />
+          <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
+            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
+              <div className="p-1.5 rounded-lg bg-spark-gold/15 text-spark-gold">
+                <Video className="w-3.5 h-3.5" />
               </div>
               <div>
-                <div className="text-[10px] text-slate-400 uppercase font-medium">総動画数</div>
-                <div className="text-sm font-bold text-white">{stats.totalVideos} <span className="text-xs font-normal text-slate-400">本</span></div>
+                <div className="text-[10px] text-slate-400 font-medium">登録動画</div>
+                <div className="text-xs font-bold text-white">{stats.totalVideos} <span className="font-normal text-slate-400">本</span></div>
               </div>
             </div>
 
-            <div className="flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
-              <div className="p-2 rounded-lg bg-red-500/15 text-red-400">
-                <PlaySquare className="w-4 h-4" />
+            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
+              <div className="p-1.5 rounded-lg bg-spark-gold/20 text-spark-gold">
+                <Eye className="w-3.5 h-3.5" />
               </div>
               <div>
-                <div className="text-[10px] text-slate-400 uppercase font-medium">YouTube</div>
-                <div className="text-sm font-bold text-white">{stats.platforms.youtube + stats.platforms.youtube_shorts} <span className="text-xs font-normal text-slate-400">本</span></div>
+                <div className="text-[10px] text-slate-400 font-medium">総再生数 (PV)</div>
+                <div className="text-xs font-bold text-spark-gold">
+                  {stats.totalViews ? (stats.totalViews >= 10000 ? `${(stats.totalViews / 10000).toFixed(0)}万` : stats.totalViews.toLocaleString()) : '0'} <span className="font-normal text-slate-400">回</span>
+                </div>
               </div>
             </div>
 
-            <div className="flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
-              <div className="p-2 rounded-lg bg-pink-500/15 text-pink-400">
-                <Film className="w-4 h-4" />
+            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
+              <div className="p-1.5 rounded-lg bg-spark-coral/20 text-spark-coral">
+                <MessageSquare className="w-3.5 h-3.5" />
               </div>
               <div>
-                <div className="text-[10px] text-slate-400 uppercase font-medium">TikTok</div>
-                <div className="text-sm font-bold text-white">{stats.platforms.tiktok} <span className="text-xs font-normal text-slate-400">本</span></div>
+                <div className="text-[10px] text-slate-400 font-medium">総コメント</div>
+                <div className="text-xs font-bold text-slate-200">
+                  {stats.totalComments?.toLocaleString() || 0} <span className="font-normal text-slate-400">件</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
+              <div className="p-1.5 rounded-lg bg-red-500/15 text-red-400">
+                <PlaySquare className="w-3.5 h-3.5" />
+              </div>
+              <div>
+                <div className="text-[10px] text-slate-400 font-medium">YouTube</div>
+                <div className="text-xs font-bold text-white">{stats.platforms.youtube + stats.platforms.youtube_shorts} <span className="font-normal text-slate-400">本</span></div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
+              <div className="p-1.5 rounded-lg bg-pink-500/15 text-pink-400">
+                <Film className="w-3.5 h-3.5" />
+              </div>
+              <div>
+                <div className="text-[10px] text-slate-400 font-medium">TikTok</div>
+                <div className="text-xs font-bold text-white">{stats.platforms.tiktok} <span className="font-normal text-slate-400">本</span></div>
               </div>
             </div>
 

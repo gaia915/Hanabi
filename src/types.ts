@@ -16,11 +16,31 @@ export interface HanabiVideo {
   region: string;
   tags: string[];
   description: string;
+  viewCount: number;
+  commentCount: number;
+}
+
+export interface ChannelStats {
+  id: string;
+  name: string;
+  platform: 'youtube' | 'tiktok';
+  url: string;
+  thumbnailUrl: string;
+  videoCount: number;
+  totalViews: number;
+  totalComments: number;
+  averageViews: number;
+  mainCategory: string;
+  rankByViews: number;
+  rankByComments: number;
 }
 
 export interface AggregatorStats {
   lastUpdated: string;
   totalVideos: number;
+  totalChannels: number;
+  totalViews: number;
+  totalComments: number;
   platforms: {
     youtube: number;
     youtube_shorts: number;

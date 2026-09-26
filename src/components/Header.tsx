@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Search, PlusCircle, HelpCircle, Flame, Bookmark } from 'lucide-react';
+import { Sparkles, Search, PlusCircle, HelpCircle, Flame, Bookmark, Trophy } from 'lucide-react';
 
 interface HeaderProps {
   searchQuery: string;
@@ -9,6 +9,9 @@ interface HeaderProps {
   showFavoritesOnly: boolean;
   onToggleFavorites: () => void;
   favoritesCount: number;
+  onGoHome?: () => void;
+  onGoRanking?: () => void;
+  currentView?: 'videos' | 'ranking';
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -19,6 +22,9 @@ export const Header: React.FC<HeaderProps> = ({
   showFavoritesOnly,
   onToggleFavorites,
   favoritesCount,
+  onGoHome,
+  onGoRanking,
+  currentView = 'videos',
 }) => {
   return (
     <header className="sticky top-0 z-30 glass-panel border-b border-white/10 bg-night-950/80 backdrop-blur-md transition-all">
@@ -27,8 +33,12 @@ export const Header: React.FC<HeaderProps> = ({
           
           {/* Logo & Title */}
           <div className="flex items-center gap-3 w-full md:w-auto justify-between md:justify-start">
-            <div className="flex items-center gap-3">
-              <div className="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-gradient-to-tr from-spark-coral via-spark-purple to-spark-gold p-0.5 shadow-lg shadow-spark-coral/20">
+            <div 
+              onClick={onGoHome}
+              className="flex items-center gap-3 cursor-pointer group"
+              title="ホームへ戻る"
+            >
+              <div className="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-gradient-to-tr from-spark-coral via-spark-purple to-spark-gold p-0.5 shadow-lg shadow-spark-coral/20 group-hover:scale-105 transition-transform">
                 <div className="w-full h-full bg-night-900 rounded-[14px] flex items-center justify-center">
                   <Flame className="w-6 h-6 text-spark-gold animate-pulse" />
                 </div>
@@ -50,6 +60,19 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* Mobile Actions */}
             <div className="flex items-center gap-2 md:hidden">
+              {onGoRanking && (
+                <button
+                  onClick={onGoRanking}
+                  className={`p-2 rounded-xl border transition-all ${
+                    currentView === 'ranking'
+                      ? 'bg-spark-gold/20 border-spark-gold text-spark-gold'
+                      : 'bg-night-900/60 border-white/10 text-spark-gold'
+                  }`}
+                  title="ランキング"
+                >
+                  <Trophy className="w-5 h-5" />
+                </button>
+              )}
               <button
                 onClick={onToggleFavorites}
                 className={`p-2 rounded-xl border transition-all ${
@@ -92,33 +115,47 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Action Buttons */}
-          <div className="hidden md:flex items-center gap-2.5">
+          <div className="hidden md:flex items-center gap-2">
+            {onGoRanking && (
+              <button
+                onClick={onGoRanking}
+                className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold rounded-xl border transition-all ${
+                  currentView === 'ranking'
+                    ? 'bg-spark-gold text-night-950 border-spark-gold shadow-md shadow-spark-gold/30'
+                    : 'bg-night-900/80 border-spark-gold/30 text-spark-gold hover:bg-spark-gold/10'
+                }`}
+              >
+                <Trophy className="w-3.5 h-3.5" />
+                ランキング
+              </button>
+            )}
+
             <button
               onClick={onToggleFavorites}
-              className={`flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl border transition-all ${
+              className={`flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-xl border transition-all ${
                 showFavoritesOnly
                   ? 'bg-spark-coral/20 border-spark-coral text-spark-coral shadow-lg shadow-spark-coral/20'
                   : 'bg-night-900/80 border-white/10 text-slate-300 hover:border-white/25 hover:text-white'
               }`}
             >
-              <Bookmark className={`w-4 h-4 ${showFavoritesOnly ? 'fill-current' : ''}`} />
+              <Bookmark className={`w-3.5 h-3.5 ${showFavoritesOnly ? 'fill-current' : ''}`} />
               お気に入り {favoritesCount > 0 && `(${favoritesCount})`}
             </button>
 
             <button
               onClick={onOpenAddModal}
-              className="flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl bg-night-900/80 border border-white/10 text-slate-300 hover:border-white/25 hover:text-white transition-all"
+              className="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-xl bg-night-900/80 border border-white/10 text-slate-300 hover:border-white/25 hover:text-white transition-all"
             >
-              <PlusCircle className="w-4 h-4 text-spark-cyan" />
+              <PlusCircle className="w-3.5 h-3.5 text-spark-cyan" />
               ソース追加
             </button>
 
             <button
               onClick={onOpenGuideModal}
-              className="flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl bg-gradient-to-r from-spark-coral to-spark-purple text-white shadow-md shadow-spark-coral/25 hover:opacity-95 transition-all"
+              className="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-xl bg-gradient-to-r from-spark-coral to-spark-purple text-white shadow-md shadow-spark-coral/25 hover:opacity-95 transition-all"
             >
-              <Sparkles className="w-4 h-4" />
-              自動更新の仕組み
+              <Sparkles className="w-3.5 h-3.5" />
+              自動更新
             </button>
           </div>
 

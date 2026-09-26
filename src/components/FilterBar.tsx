@@ -9,8 +9,8 @@ interface FilterBarProps {
   onSelectCategory: (cat: string) => void;
   selectedPlatform: Platform | 'all';
   onSelectPlatform: (platform: Platform | 'all') => void;
-  sortBy: 'latest' | 'oldest' | 'title';
-  onSelectSort: (sort: 'latest' | 'oldest' | 'title') => void;
+  sortBy: 'latest' | 'oldest' | 'title' | 'views' | 'comments';
+  onSelectSort: (sort: 'latest' | 'oldest' | 'title' | 'views' | 'comments') => void;
   selectedTag: string | null;
   onSelectTag: (tag: string | null) => void;
   popularTags: string[];
@@ -101,6 +101,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               className="text-xs bg-night-900 border border-white/10 rounded-lg px-2.5 py-1.5 text-slate-200 focus:outline-none focus:ring-1 focus:ring-spark-coral/50"
             >
               <option value="latest">新着順 (公開日)</option>
+              <option value="views">🔥 再生回数 (PV) 順</option>
+              <option value="comments">💬 コメント数順</option>
               <option value="oldest">古い順</option>
               <option value="title">タイトル順</option>
             </select>

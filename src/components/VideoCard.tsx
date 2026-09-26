@@ -1,6 +1,6 @@
 import React from 'react';
 import type { HanabiVideo } from '../types';
-import { Play, ExternalLink, Bookmark, MapPin, Calendar } from 'lucide-react';
+import { Play, ExternalLink, Bookmark, MapPin, Calendar, Eye, MessageSquare } from 'lucide-react';
 import { YoutubeIcon, TikTokIcon } from './Icons';
 
 interface VideoCardProps {
@@ -28,6 +28,13 @@ export const VideoCard: React.FC<VideoCardProps> = ({
       return '';
     }
   })();
+
+  const formatNumber = (num?: number): string => {
+    if (!num) return '0';
+    if (num >= 100000000) return `${(num / 100000000).toFixed(1)}億`;
+    if (num >= 10000) return `${(num / 10000).toFixed(1)}万`;
+    return num.toLocaleString();
+  };
 
   const isTikTok = video.platform === 'tiktok';
   const isShorts = video.platform === 'youtube_shorts';
@@ -129,13 +136,13 @@ export const VideoCard: React.FC<VideoCardProps> = ({
             {video.title}
           </h3>
 
-          {/* Author */}
+          {/* Author & Stats */}
           <div className="mt-2 flex items-center justify-between text-xs text-slate-400">
             <a
               href={video.authorUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-spark-cyan truncate max-w-[200px] transition-colors"
+              className="hover:text-spark-cyan truncate max-w-[160px] transition-colors"
             >
               {video.authorName}
             </a>
@@ -149,6 +156,18 @@ export const VideoCard: React.FC<VideoCardProps> = ({
             >
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
+          </div>
+
+          {/* PV & Comments Metric */}
+          <div className="mt-2 flex items-center justify-between text-[11px] px-2.5 py-1.5 rounded-xl bg-night-950/80 border border-white/5">
+            <span className="flex items-center gap-1 text-spark-gold font-semibold" title="再生回数 (PV)">
+              <Eye className="w-3.5 h-3.5" />
+              {formatNumber(video.viewCount)}回 PV
+            </span>
+            <span className="flex items-center gap-1 text-slate-400 font-medium" title="コメント数">
+              <MessageSquare className="w-3 h-3 text-slate-500" />
+              {video.commentCount?.toLocaleString() || 0}件
+            </span>
           </div>
         </div>
 
