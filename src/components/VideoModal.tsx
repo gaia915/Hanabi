@@ -7,6 +7,7 @@ interface VideoModalProps {
   onClose: () => void;
   isFavorite: boolean;
   onToggleFavorite: (id: string) => void;
+  onOpenChannel?: (channelName: string) => void;
 }
 
 export const VideoModal: React.FC<VideoModalProps> = ({
@@ -14,6 +15,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({
   onClose,
   isFavorite,
   onToggleFavorite,
+  onOpenChannel,
 }) => {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -140,7 +142,21 @@ export const VideoModal: React.FC<VideoModalProps> = ({
           <div className="flex flex-wrap items-center gap-y-2 gap-x-4 text-xs text-slate-400">
             <span className="flex items-center gap-1.5 text-slate-200">
               <span className="w-2 h-2 rounded-full bg-spark-coral" />
-              投稿者: <a href={video.authorUrl} target="_blank" rel="noopener noreferrer" className="hover:text-spark-cyan underline">{video.authorName}</a>
+              投稿チャンネル: 
+              {onOpenChannel ? (
+                <button
+                  onClick={() => {
+                    onClose();
+                    onOpenChannel(video.authorName);
+                  }}
+                  className="text-spark-gold hover:underline font-bold flex items-center gap-1"
+                >
+                  {video.authorName}
+                  <span className="text-[10px] px-1.5 py-0.5 rounded bg-spark-gold/20 text-spark-gold">集計を見る</span>
+                </button>
+              ) : (
+                <a href={video.authorUrl} target="_blank" rel="noopener noreferrer" className="hover:text-spark-cyan underline">{video.authorName}</a>
+              )}
             </span>
             <span className="flex items-center gap-1">
               <MapPin className="w-3.5 h-3.5 text-spark-gold" />

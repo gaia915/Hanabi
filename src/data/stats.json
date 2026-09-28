@@ -1,21 +1,20 @@
 {
-  "lastUpdated": "2026-09-28T02:23:59.481593+00:00",
-  "totalVideos": 79,
-  "totalChannels": 39,
-  "totalViews": 33313055,
-  "totalComments": 20760,
+  "lastUpdated": "2026-09-28T04:33:26.489486+00:00",
+  "totalVideos": 61,
+  "totalChannels": 28,
+  "totalViews": 20541933,
+  "totalComments": 12898,
   "platforms": {
-    "youtube": 68,
+    "youtube": 53,
     "youtube_shorts": 0,
-    "tiktok": 11
+    "tiktok": 8
   },
   "categories": {
-    "大曲の花火（全国花火競技大会）": 10,
-    "長岡まつり大花火大会": 36,
-    "全国有名花火大会": 15,
-    "日本の花火厳選": 5,
-    "隅田川花火大会": 11,
-    "赤川花火大会": 1,
-    "びわ湖大花火大会": 1
+    "大曲の花火（全国花火競技大会）": 9,
+    "長岡まつり大花火大会": 30,
+    "全国有名花火大会": 9,
+    "日本の花火厳選": 2,
+    "隅田川花火大会": 10,
+    "赤川花火大会": 1
   }
 }

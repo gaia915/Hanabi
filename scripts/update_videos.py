@@ -318,7 +318,7 @@ def fetch_tiktok_oembed(item):
     }
 
 def aggregate_channels(video_list):
-    """全動画からチャンネルごとの総PV、総コメント数、ランキングを集計"""
+    """全動画からチャンネルごとの総PV、総コメント数、ランキング、エンゲージメント、代表動画を集計"""
     channel_map = {}
 
     for v in video_list:
@@ -337,17 +337,36 @@ def aggregate_channels(video_list):
                 "totalViews": 0,
                 "totalComments": 0,
                 "categories": {},
+                "videoIds": [],
+                "topVideo": None,
+                "latestPublishedAt": v.get("publishedAt", ""),
+                "_max_views": -1,
             }
 
         ch = channel_map[name]
         ch["videoCount"] += 1
         ch["totalViews"] += v.get("viewCount", 0)
         ch["totalComments"] += v.get("commentCount", 0)
+        ch["videoIds"].append(v.get("id"))
 
-        # 代表サムネイル（再生数が一番高い動画のサムネイルに更新）
-        if v.get("viewCount", 0) > ch.get("_max_views", 0):
-            ch["_max_views"] = v.get("viewCount", 0)
+        # 最新投稿日
+        if v.get("publishedAt", "") > ch["latestPublishedAt"]:
+            ch["latestPublishedAt"] = v.get("publishedAt")
+
+        # 代表動画（再生数が一番高い動画）
+        v_views = v.get("viewCount", 0)
+        if v_views > ch["_max_views"]:
+            ch["_max_views"] = v_views
             ch["thumbnailUrl"] = v.get("thumbnailUrl")
+            ch["topVideo"] = {
+                "id": v.get("id"),
+                "title": v.get("title"),
+                "thumbnailUrl": v.get("thumbnailUrl"),
+                "viewCount": v_views,
+                "commentCount": v.get("commentCount", 0),
+                "videoUrl": v.get("videoUrl"),
+                "publishedAt": v.get("publishedAt"),
+            }
 
         cat = v.get("category", "全国有名花火大会")
         ch["categories"][cat] = ch["categories"].get(cat, 0) + 1
@@ -365,6 +384,22 @@ def aggregate_channels(video_list):
         del ch["categories"]
 
         ch["averageViews"] = int(ch["totalViews"] / ch["videoCount"]) if ch["videoCount"] > 0 else 0
+        
+        # エンゲージメント率 (%)
+        rate = (ch["totalComments"] / ch["totalViews"] * 100) if ch["totalViews"] > 0 else 0.0
+        ch["engagementRate"] = round(rate, 2)
+
+        # チャンネルタイプ判定
+        name_lower = ch["name"].lower()
+        if any(w in name_lower for w in ["公式", "財団", "推進機構", "観光", "市", "協会", "official"]):
+            ch["channelType"] = "official"
+        elif ch["platform"] == "tiktok":
+            ch["channelType"] = "tiktoker"
+        elif any(w in name_lower for w in ["tv", "ニュース", "news", "アーカイブ", "景色", "japan"]):
+            ch["channelType"] = "media"
+        else:
+            ch["channelType"] = "creator"
+
         channels.append(ch)
 
     # PVランキング付与
@@ -376,6 +411,11 @@ def aggregate_channels(video_list):
     channels_by_comments = sorted(channels, key=lambda x: x["totalComments"], reverse=True)
     for i, ch in enumerate(channels_by_comments, 1):
         ch["rankByComments"] = i
+
+    # 平均PVランキング付与
+    channels_by_avg = sorted(channels, key=lambda x: x["averageViews"], reverse=True)
+    for i, ch in enumerate(channels_by_avg, 1):
+        ch["rankByAverageViews"] = i
 
     return channels
 

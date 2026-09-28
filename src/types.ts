@@ -20,6 +20,16 @@ export interface HanabiVideo {
   commentCount: number;
 }
 
+export interface TopVideoInfo {
+  id: string;
+  title: string;
+  thumbnailUrl: string;
+  viewCount: number;
+  commentCount: number;
+  videoUrl: string;
+  publishedAt: string;
+}
+
 export interface ChannelStats {
   id: string;
   name: string;
@@ -33,6 +43,12 @@ export interface ChannelStats {
   mainCategory: string;
   rankByViews: number;
   rankByComments: number;
+  rankByAverageViews?: number;
+  engagementRate?: number;
+  channelType?: 'official' | 'creator' | 'tiktoker' | 'media';
+  videoIds?: string[];
+  topVideo?: TopVideoInfo | null;
+  latestPublishedAt?: string;
 }
 
 export interface AggregatorStats {
