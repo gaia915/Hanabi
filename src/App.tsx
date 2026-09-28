@@ -131,13 +131,7 @@ export const App: React.FC = () => {
 
       // Platform filter
       if (selectedPlatform !== 'all') {
-        if (selectedPlatform === 'youtube') {
-          if (video.platform !== 'youtube') return false;
-        } else if (selectedPlatform === 'youtube_shorts') {
-          if (video.platform !== 'youtube_shorts') return false;
-        } else if (selectedPlatform === 'tiktok') {
-          if (video.platform !== 'tiktok') return false;
-        }
+        if (video.platform !== selectedPlatform) return false;
       }
 
       // Category filter

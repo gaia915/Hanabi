@@ -5,7 +5,7 @@ import {
   ArrowUpRight, LayoutGrid, Table, SlidersHorizontal, 
   Sparkles, TrendingUp, Play, RotateCcw
 } from 'lucide-react';
-import { YoutubeIcon, TikTokIcon } from './Icons';
+import { YoutubeIcon, TikTokIcon, InstagramIcon } from './Icons';
 
 interface ChannelHubProps {
   channels: ChannelStats[];
@@ -21,7 +21,7 @@ export const ChannelHub: React.FC<ChannelHubProps> = ({
   searchQuery,
 }) => {
   const [rankingMetric, setRankingMetric] = useState<'views' | 'comments' | 'average' | 'videos' | 'engagement'>('views');
-  const [platformFilter, setPlatformFilter] = useState<'all' | 'youtube' | 'tiktok'>('all');
+  const [platformFilter, setPlatformFilter] = useState<'all' | 'youtube' | 'tiktok' | 'instagram'>('all');
   const [typeFilter, setTypeFilter] = useState<'all' | 'official' | 'creator' | 'tiktoker'>('all');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [viewMode, setViewMode] = useState<'cards' | 'table'>('cards');
@@ -424,6 +424,15 @@ export const ChannelHub: React.FC<ChannelHubProps> = ({
               <TikTokIcon className="w-3 h-3" />
               TikTok
             </button>
+            <button
+              onClick={() => setPlatformFilter('instagram')}
+              className={`flex items-center gap-1 px-2.5 py-1 text-xs font-semibold rounded-lg transition-all ${
+                platformFilter === 'instagram' ? 'bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 text-white font-bold' : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              <InstagramIcon className="w-3 h-3" />
+              Instagram
+            </button>
           </div>
 
           {/* Type Filter */}
@@ -528,11 +537,15 @@ export const ChannelHub: React.FC<ChannelHubProps> = ({
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5 flex-wrap">
                         {channel.platform === 'tiktok' ? (
-                          <span className="p-1 rounded bg-black/60 text-cyan-300 border border-cyan-400/20">
+                          <span className="p-1 rounded bg-black/60 text-cyan-300 border border-cyan-400/20" title="TikTok">
                             <TikTokIcon className="w-2.5 h-2.5" />
                           </span>
+                        ) : channel.platform === 'instagram' ? (
+                          <span className="p-1 rounded bg-gradient-to-tr from-purple-600 to-pink-500 text-white shadow-sm" title="Instagram">
+                            <InstagramIcon className="w-2.5 h-2.5" />
+                          </span>
                         ) : (
-                          <span className="p-1 rounded bg-red-600/20 text-red-400 border border-red-500/20">
+                          <span className="p-1 rounded bg-red-600/20 text-red-400 border border-red-500/20" title="YouTube">
                             <YoutubeIcon className="w-2.5 h-2.5" />
                           </span>
                         )}
@@ -711,6 +724,11 @@ export const ChannelHub: React.FC<ChannelHubProps> = ({
                           <span className="inline-flex items-center gap-1 text-[11px] font-bold text-cyan-300 bg-black/60 px-2 py-0.5 rounded-full border border-cyan-400/20">
                             <TikTokIcon className="w-2.5 h-2.5" />
                             TikTok
+                          </span>
+                        ) : channel.platform === 'instagram' ? (
+                          <span className="inline-flex items-center gap-1 text-[11px] font-bold text-white bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 px-2 py-0.5 rounded-full shadow-sm">
+                            <InstagramIcon className="w-2.5 h-2.5" />
+                            Instagram
                           </span>
                         ) : (
                           <span className="inline-flex items-center gap-1 text-[11px] font-bold text-white bg-red-600/80 px-2 py-0.5 rounded-full">

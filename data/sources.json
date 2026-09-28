@@ -67,6 +67,48 @@
       "thumbnailUrl": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=800&auto=format&fit=crop"
     }
   ],
+  "instagram_posts": [
+    {
+      "url": "https://www.instagram.com/reel/C9X9h_9SO7Z/",
+      "title": "熱海海上花火大会の特大フィナーレ！海面を黄金に染め上げる空中ナイアガラ #熱海花火 #花火 #fireworks",
+      "category": "熱海海上花火大会",
+      "region": "静岡県",
+      "author_name": "熱海花火アーカイブ",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop",
+      "viewCount": 850000,
+      "commentCount": 540
+    },
+    {
+      "url": "https://www.instagram.com/reel/C8kP2Yqv12a/",
+      "title": "長岡花火 圧巻の正三尺玉！音と光の衝撃波が胸に響く… #長岡花火 #正三尺玉 #日本の夏",
+      "category": "長岡まつり大花火大会",
+      "region": "新潟県",
+      "author_name": "Japan Fireworks Scenery (Insta)",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?w=800&auto=format&fit=crop",
+      "viewCount": 1240000,
+      "commentCount": 890
+    },
+    {
+      "url": "https://www.instagram.com/reel/C7mN4Qpx98b/",
+      "title": "隅田川花火大会 東京の夜景×スカイツリー×伝統花火の豪華競演！ #隅田川花火大会 #東京花火",
+      "category": "隅田川花火大会",
+      "region": "東京都",
+      "author_name": "TOKYO Nightscape (インスタ)",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=800&auto=format&fit=crop",
+      "viewCount": 620000,
+      "commentCount": 380
+    },
+    {
+      "url": "https://www.instagram.com/reel/C9aB5C_y12z/",
+      "title": "びわ湖大花火大会 湖上を埋め尽くすワイドスターマイン！鳥肌が止まらない光のショー #びわ湖花火",
+      "category": "びわ湖大花火大会",
+      "region": "滋賀県",
+      "author_name": "琵琶湖花火ファン (Instagram)",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800&auto=format&fit=crop",
+      "viewCount": 450000,
+      "commentCount": 290
+    }
+  ],
   "categories": [
     "長岡まつり大花火大会",
     "大曲の花火（全国花火競技大会）",

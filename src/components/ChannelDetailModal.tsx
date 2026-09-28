@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import type { ChannelStats, HanabiVideo } from '../types';
 import { X, ExternalLink, Eye, MessageSquare, Video, Sparkles, MapPin, Play, TrendingUp, Award } from 'lucide-react';
-import { YoutubeIcon, TikTokIcon } from './Icons';
+import { YoutubeIcon, TikTokIcon, InstagramIcon } from './Icons';
 
 interface ChannelDetailModalProps {
   channel: ChannelStats | null;
@@ -45,8 +45,6 @@ export const ChannelDetailModal: React.FC<ChannelDetailModalProps> = ({
     return num.toLocaleString();
   };
 
-  const isTikTok = channel.platform === 'tiktok';
-
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/85 backdrop-blur-md animate-fadeIn">
       {/* Backdrop */}
@@ -74,10 +72,15 @@ export const ChannelDetailModal: React.FC<ChannelDetailModalProps> = ({
                   <h2 className="text-xl sm:text-2xl font-black text-white">
                     {channel.name}
                   </h2>
-                  {isTikTok ? (
+                  {channel.platform === 'tiktok' ? (
                     <span className="flex items-center gap-1 px-2.5 py-0.5 text-xs font-bold rounded-full bg-black/80 text-cyan-300 border border-cyan-400/30">
                       <TikTokIcon className="w-3 h-3" />
                       TikTok
+                    </span>
+                  ) : channel.platform === 'instagram' ? (
+                    <span className="flex items-center gap-1 px-2.5 py-0.5 text-xs font-bold rounded-full bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 text-white shadow-sm">
+                      <InstagramIcon className="w-3 h-3" />
+                      Instagram
                     </span>
                   ) : (
                     <span className="flex items-center gap-1 px-2.5 py-0.5 text-xs font-bold rounded-full bg-red-600/90 text-white">

@@ -26,7 +26,7 @@ export const AutomationGuideModal: React.FC<AutomationGuideModalProps> = ({ isOp
                 最新情報の自動更新システムについて
               </h3>
               <p className="text-xs text-slate-400">
-                YouTube RSS・検索・TikTok oEmbed による完全自動巡回
+                YouTube RSS・検索・TikTok・Instagram による完全自動巡回
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export const AutomationGuideModal: React.FC<AutomationGuideModalProps> = ({ isOp
             <CheckCircle2 className="w-4 h-4" />
             1. 動画収集の仕組み
           </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div className="p-3 rounded-xl bg-night-950 border border-white/5 space-y-1">
               <span className="font-bold text-red-400 block">YouTube公式RSS</span>
               <p className="text-slate-400 text-[11px]">
@@ -51,13 +51,19 @@ export const AutomationGuideModal: React.FC<AutomationGuideModalProps> = ({ isOp
             <div className="p-3 rounded-xl bg-night-950 border border-white/5 space-y-1">
               <span className="font-bold text-spark-purple block">yt-dlp 花火検索</span>
               <p className="text-slate-400 text-[11px]">
-                「花火大会 4K」「大曲の花火」など最新の話題動画・高画質動画を自動検索・除外フィルター付きで集約。
+                「花火大会 4K」「大曲の花火」など最新の話題動画・高画質動画を自動検索・集約。
               </p>
             </div>
             <div className="p-3 rounded-xl bg-night-950 border border-white/5 space-y-1">
               <span className="font-bold text-cyan-400 block">TikTok oEmbed</span>
               <p className="text-slate-400 text-[11px]">
-                TikTok公式API連携で、タイトル・作者・サムネイル・埋め込みプレーヤー情報を即時取得。
+                TikTok公式API連携で、タイトル・作者・サムネイル・埋め込み情報を即時取得。
+              </p>
+            </div>
+            <div className="p-3 rounded-xl bg-night-950 border border-white/5 space-y-1">
+              <span className="font-bold text-pink-400 block">Instagram Reels</span>
+              <p className="text-slate-400 text-[11px]">
+                Meta公式埋め込みシステムにより、認証不要でリール動画を完全再生。
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { X, Plus, Copy, Check, Sparkles, Film } from 'lucide-react';
-import { YoutubeIcon } from './Icons';
+import { X, Plus, Copy, Check, Sparkles } from 'lucide-react';
+import { YoutubeIcon, TikTokIcon, InstagramIcon } from './Icons';
 
 interface AddSourceModalProps {
   isOpen: boolean;
@@ -13,7 +13,7 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
   onClose,
   categories,
 }) => {
-  const [activeTab, setActiveTab] = useState<'yt_channel' | 'yt_query' | 'tiktok'>('yt_channel');
+  const [activeTab, setActiveTab] = useState<'yt_channel' | 'yt_query' | 'tiktok' | 'instagram'>('yt_channel');
   const [copied, setCopied] = useState(false);
 
   // YouTube Channel Form
@@ -33,6 +33,13 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
   const [ttAuthor, setTtAuthor] = useState('');
   const [ttCat, setTtCat] = useState(categories[0] || '長岡まつり大花火大会');
 
+  // Instagram Form
+  const [igUrl, setIgUrl] = useState('');
+  const [igTitle, setIgTitle] = useState('');
+  const [igAuthor, setIgAuthor] = useState('');
+  const [igCat, setIgCat] = useState(categories[0] || '熱海海上花火大会');
+  const [igRegion, setIgRegion] = useState('静岡県');
+
   if (!isOpen) return null;
 
   const generateSnippet = () => {
@@ -49,13 +56,23 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
         default_category: queryCat,
         max_results: Number(queryLimit)
       }, null, 2);
-    } else {
+    } else if (activeTab === 'tiktok') {
       return JSON.stringify({
         url: ttUrl || "https://www.tiktok.com/@user/video/...",
         title: ttTitle || "花火の動画",
         author_name: ttAuthor || "クリエイター名",
         category: ttCat,
         region: "日本"
+      }, null, 2);
+    } else {
+      return JSON.stringify({
+        url: igUrl || "https://www.instagram.com/reel/...",
+        title: igTitle || "花火リール動画",
+        author_name: igAuthor || "@creator_name",
+        category: igCat,
+        region: igRegion,
+        view_count: 50000,
+        comment_count: 120
       }, null, 2);
     }
   };
@@ -93,7 +110,7 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
         </div>
 
         {/* Tab switch */}
-        <div className="flex rounded-xl bg-night-950 p-1 border border-white/5">
+        <div className="flex rounded-xl bg-night-950 p-1 border border-white/5 gap-1">
           <button
             onClick={() => setActiveTab('yt_channel')}
             className={`flex-1 py-2 text-xs font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-all ${
@@ -103,7 +120,7 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
             }`}
           >
             <YoutubeIcon className="w-3.5 h-3.5" />
-            YouTubeチャンネル
+            <span className="hidden sm:inline">YouTube</span>チャンネル
           </button>
           <button
             onClick={() => setActiveTab('yt_query')}
@@ -114,7 +131,7 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
             }`}
           >
             <Sparkles className="w-3.5 h-3.5" />
-            YouTube検索ワード
+            <span className="hidden sm:inline">YouTube</span>検索
           </button>
           <button
             onClick={() => setActiveTab('tiktok')}
@@ -124,8 +141,19 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
                 : 'text-slate-400 hover:text-white'
             }`}
           >
-            <Film className="w-3.5 h-3.5" />
-            TikTok動画
+            <TikTokIcon className="w-3.5 h-3.5" />
+            TikTok
+          </button>
+          <button
+            onClick={() => setActiveTab('instagram')}
+            className={`flex-1 py-2 text-xs font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-all ${
+              activeTab === 'instagram'
+                ? 'bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 text-white shadow font-bold'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            <InstagramIcon className="w-3.5 h-3.5" />
+            Instagram
           </button>
         </div>
 
@@ -256,6 +284,63 @@ export const AddSourceModal: React.FC<AddSourceModalProps> = ({
                     value={ttAuthor}
                     onChange={(e) => setTtAuthor(e.target.value)}
                     placeholder="例: 花火クリエイター"
+                    className="w-full text-xs px-3 py-2 rounded-xl bg-night-950 border border-white/10 text-white"
+                  />
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'instagram' && (
+            <>
+              <div>
+                <label className="text-xs font-medium text-slate-300 block mb-1">Instagramリール / 投稿URL</label>
+                <input
+                  type="text"
+                  value={igUrl}
+                  onChange={(e) => setIgUrl(e.target.value)}
+                  placeholder="https://www.instagram.com/reel/C-..."
+                  className="w-full text-xs px-3 py-2 rounded-xl bg-night-950 border border-white/10 text-white focus:outline-none focus:ring-1 focus:ring-pink-500"
+                />
+              </div>
+              <div>
+                <label className="text-xs font-medium text-slate-300 block mb-1">動画タイトル・見出し</label>
+                <input
+                  type="text"
+                  value={igTitle}
+                  onChange={(e) => setIgTitle(e.target.value)}
+                  placeholder="例: 熱海海上花火大会2024 大空中ナイアガラ"
+                  className="w-full text-xs px-3 py-2 rounded-xl bg-night-950 border border-white/10 text-white"
+                />
+              </div>
+              <div>
+                <label className="text-xs font-medium text-slate-300 block mb-1">アカウント名・投稿者</label>
+                <input
+                  type="text"
+                  value={igAuthor}
+                  onChange={(e) => setIgAuthor(e.target.value)}
+                  placeholder="例: @atami_hanabi"
+                  className="w-full text-xs px-3 py-2 rounded-xl bg-night-950 border border-white/10 text-white"
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="text-xs font-medium text-slate-300 block mb-1">対象大会</label>
+                  <select
+                    value={igCat}
+                    onChange={(e) => setIgCat(e.target.value)}
+                    className="w-full text-xs px-3 py-2 rounded-xl bg-night-950 border border-white/10 text-white"
+                  >
+                    {categories.map(c => <option key={c} value={c}>{c}</option>)}
+                  </select>
+                </div>
+                <div>
+                  <label className="text-xs font-medium text-slate-300 block mb-1">地域</label>
+                  <input
+                    type="text"
+                    value={igRegion}
+                    onChange={(e) => setIgRegion(e.target.value)}
+                    placeholder="例: 静岡県"
                     className="w-full text-xs px-3 py-2 rounded-xl bg-night-950 border border-white/10 text-white"
                   />
                 </div>

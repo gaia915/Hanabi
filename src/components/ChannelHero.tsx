@@ -79,7 +79,7 @@ export const ChannelHero: React.FC<ChannelHeroProps> = ({
             </h1>
 
             <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
-              長岡花火・大曲の花火などの公式チャンネルから、4K映像作家、TikTokクリエイターまで。
+              長岡花火・大曲の花火などの公式チャンネルから、4K映像作家、TikTok・Instagramクリエイターまで。
               各チャンネルの累計ページビュー（PV）や反響コメント数を自動集計・ランキング化しています。
             </p>
           </div>
@@ -139,7 +139,7 @@ export const ChannelHero: React.FC<ChannelHeroProps> = ({
               <span className="text-xs text-slate-400 font-medium">チャンネル</span>
             </div>
             <div className="mt-1 text-[11px] text-slate-400">
-              YouTube公式 / 映像作家 / TikTok
+              YouTube公式 / 映像作家 / TikTok / Instagram
             </div>
           </div>
 
@@ -197,7 +197,8 @@ export const ChannelHero: React.FC<ChannelHeroProps> = ({
             </div>
             <div className="mt-1 text-[11px] text-slate-400 flex items-center justify-between">
               <span>YT: {stats.platforms.youtube + stats.platforms.youtube_shorts}本</span>
-              <span>TikTok: {stats.platforms.tiktok}本</span>
+              <span>TT: {stats.platforms.tiktok}本</span>
+              {typeof stats.platforms.instagram === 'number' && <span>IG: {stats.platforms.instagram}本</span>}
             </div>
           </div>
 

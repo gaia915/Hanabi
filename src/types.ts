@@ -1,4 +1,4 @@
-export type Platform = 'youtube' | 'youtube_shorts' | 'tiktok';
+export type Platform = 'youtube' | 'youtube_shorts' | 'tiktok' | 'instagram';
 
 export interface HanabiVideo {
   id: string;
@@ -33,7 +33,7 @@ export interface TopVideoInfo {
 export interface ChannelStats {
   id: string;
   name: string;
-  platform: 'youtube' | 'tiktok';
+  platform: 'youtube' | 'tiktok' | 'instagram';
   url: string;
   thumbnailUrl: string;
   videoCount: number;
@@ -61,6 +61,7 @@ export interface AggregatorStats {
     youtube: number;
     youtube_shorts: number;
     tiktok: number;
+    instagram?: number;
   };
   categories: Record<string, number>;
 }
@@ -86,4 +87,17 @@ export interface SourceTikTok {
   region?: string;
   author_name?: string;
   thumbnailUrl?: string;
+  viewCount?: number;
+  commentCount?: number;
+}
+
+export interface SourceInstagram {
+  url: string;
+  title?: string;
+  category?: string;
+  region?: string;
+  author_name?: string;
+  thumbnailUrl?: string;
+  viewCount?: number;
+  commentCount?: number;
 }

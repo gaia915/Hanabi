@@ -1,7 +1,7 @@
 import React from 'react';
 import type { HanabiVideo } from '../types';
 import { Play, ExternalLink, Bookmark, MapPin, Calendar, Eye, MessageSquare } from 'lucide-react';
-import { YoutubeIcon, TikTokIcon } from './Icons';
+import { YoutubeIcon, TikTokIcon, InstagramIcon } from './Icons';
 
 interface VideoCardProps {
   video: HanabiVideo;
@@ -59,7 +59,12 @@ export const VideoCard: React.FC<VideoCardProps> = ({
 
         {/* Platform Badge */}
         <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5">
-          {isTikTok ? (
+          {video.platform === 'instagram' ? (
+            <span className="flex items-center gap-1 px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 text-white shadow-sm backdrop-blur-sm">
+              <InstagramIcon className="w-2.5 h-2.5" />
+              Instagram
+            </span>
+          ) : isTikTok ? (
             <span className="flex items-center gap-1 px-2.5 py-0.5 text-[11px] font-bold rounded-full bg-black/80 text-cyan-300 border border-cyan-400/30 backdrop-blur-sm">
               <TikTokIcon className="w-2.5 h-2.5 text-cyan-400" />
               TikTok

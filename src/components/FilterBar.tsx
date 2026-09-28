@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Platform } from '../types';
 import { SlidersHorizontal, Sparkles, Play, RotateCcw } from 'lucide-react';
-import { YoutubeIcon, TikTokIcon } from './Icons';
+import { YoutubeIcon, TikTokIcon, InstagramIcon } from './Icons';
 
 interface FilterBarProps {
   categories: string[];
@@ -84,6 +84,17 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           >
             <TikTokIcon className="w-3 h-3" />
             TikTok
+          </button>
+          <button
+            onClick={() => onSelectPlatform('instagram')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg transition-all ${
+              selectedPlatform === 'instagram'
+                ? 'bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 text-white shadow-sm font-bold'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            <InstagramIcon className="w-3 h-3" />
+            Instagram
           </button>
         </div>
 

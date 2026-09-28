@@ -34,6 +34,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({
   if (!video) return null;
 
   const isTikTok = video.platform === 'tiktok';
+  const isInstagram = video.platform === 'instagram';
 
   const handleShare = () => {
     if (navigator.share) {
@@ -116,6 +117,16 @@ export const VideoModal: React.FC<VideoModalProps> = ({
                 src={`https://www.tiktok.com/embed/v2/${video.original_id}`}
                 title={video.title}
                 className="w-full max-w-[340px] h-[580px] rounded-xl border border-white/10 shadow-2xl"
+                allowFullScreen
+                allow="autoplay; encrypted-media;"
+              />
+            </div>
+          ) : isInstagram ? (
+            <div className="w-full flex justify-center py-4 bg-night-950">
+              <iframe
+                src={video.embedUrl}
+                title={video.title}
+                className="w-full max-w-[400px] h-[600px] rounded-xl border border-white/10 shadow-2xl bg-white"
                 allowFullScreen
                 allow="autoplay; encrypted-media;"
               />

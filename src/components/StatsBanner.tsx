@@ -1,5 +1,6 @@
 import React from 'react';
-import { RefreshCw, PlaySquare, Film, Video, Calendar, Eye, MessageSquare } from 'lucide-react';
+import { RefreshCw, Video, Calendar, Eye, MessageSquare } from 'lucide-react';
+import { YoutubeIcon, TikTokIcon, InstagramIcon } from './Icons';
 import type { AggregatorStats } from '../types';
 
 interface StatsBannerProps {
@@ -50,7 +51,7 @@ export const StatsBanner: React.FC<StatsBannerProps> = ({ stats, onRefreshClick 
               全国の花火動画ライブラリ
             </h2>
             <p className="text-xs text-slate-400 max-w-2xl">
-              YouTube公式チャンネル・4K検索クエリ・TikTokから最新の花火動画を自動収集・分類。
+              YouTube公式チャンネル・4K検索クエリ・TikTok・Instagramから最新の花火動画を自動収集・分類。
               GitHub Actionsによる定期Cronで常に最新の映像がアップデートされます。
             </p>
           </div>
@@ -93,7 +94,7 @@ export const StatsBanner: React.FC<StatsBannerProps> = ({ stats, onRefreshClick 
 
             <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
               <div className="p-1.5 rounded-lg bg-red-500/15 text-red-400">
-                <PlaySquare className="w-3.5 h-3.5" />
+                <YoutubeIcon className="w-3.5 h-3.5" />
               </div>
               <div>
                 <div className="text-[10px] text-slate-400 font-medium">YouTube</div>
@@ -102,14 +103,26 @@ export const StatsBanner: React.FC<StatsBannerProps> = ({ stats, onRefreshClick 
             </div>
 
             <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
-              <div className="p-1.5 rounded-lg bg-pink-500/15 text-pink-400">
-                <Film className="w-3.5 h-3.5" />
+              <div className="p-1.5 rounded-lg bg-black/60 text-cyan-300 border border-cyan-400/20">
+                <TikTokIcon className="w-3.5 h-3.5" />
               </div>
               <div>
                 <div className="text-[10px] text-slate-400 font-medium">TikTok</div>
                 <div className="text-xs font-bold text-white">{stats.platforms.tiktok} <span className="font-normal text-slate-400">本</span></div>
               </div>
             </div>
+
+            {typeof stats.platforms.instagram === 'number' && (
+              <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-night-900/80 border border-white/5 shadow-sm">
+                <div className="p-1.5 rounded-lg bg-gradient-to-tr from-purple-500/20 to-pink-500/20 text-pink-400">
+                  <InstagramIcon className="w-3.5 h-3.5" />
+                </div>
+                <div>
+                  <div className="text-[10px] text-slate-400 font-medium">Instagram</div>
+                  <div className="text-xs font-bold text-white">{stats.platforms.instagram} <span className="font-normal text-slate-400">本</span></div>
+                </div>
+              </div>
+            )}
 
             {onRefreshClick && (
               <button
