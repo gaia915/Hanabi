@@ -1,14 +1,15 @@
 [
   {
-    "id": "ch_106681",
+    "id": "ch_537822",
     "name": "Yasu🌺🌸",
     "platform": "tiktok",
     "url": "https://www.tiktok.com/@yasu52755",
     "thumbnailUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop",
-    "videoCount": 119,
-    "totalViews": 18801451,
-    "totalComments": 12400,
+    "videoCount": 120,
+    "totalViews": 18938254,
+    "totalComments": 12485,
     "videoIds": [
+      "tt_tt_5032174842342459400",
       "tt_tt_3585602643651726560",
       "tt_tt_5030009668456061228",
       "tt_tt_8621346798070075068",
@@ -138,31 +139,31 @@
       "videoUrl": "https://www.tiktok.com/@yasu52755",
       "publishedAt": "2026-10-17T14:35:31.281575+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:41.509506+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:15.035087+00:00",
     "mainCategory": "長岡まつり大花火大会",
-    "averageViews": 157995,
+    "averageViews": 157818,
     "engagementRate": 0.07,
     "channelType": "tiktoker",
     "rankByViews": 1,
     "rankByComments": 1,
-    "rankByAverageViews": 33
+    "rankByAverageViews": 32
   },
   {
-    "id": "ch_22352",
+    "id": "ch_366885",
     "name": "AQUA Geo Graphic",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC9Q3Z5SudK2JIwhYCXWDpvw",
     "thumbnailUrl": "https://i.ytimg.com/vi/BjmGf06FrkY/hqdefault.jpg",
     "videoCount": 17,
-    "totalViews": 17149005,
-    "totalComments": 10464,
+    "totalViews": 17150593,
+    "totalComments": 10443,
     "videoIds": [
       "yt_Rl0su19IOZ4",
       "yt_sp9ca_RDqNE",
-      "yt_BjmGf06FrkY",
-      "yt_0aaYtL4XIlI",
       "yt_2c2bJtx1KJY",
       "yt_s2Nq6X8UxNY",
+      "yt_0aaYtL4XIlI",
+      "yt_BjmGf06FrkY",
       "yt_nLyCt3ivI6k",
       "yt_7XZEwipo7ik",
       "yt_NGjlMpOCDxI",
@@ -184,9 +185,9 @@
       "videoUrl": "https://www.youtube.com/watch?v=BjmGf06FrkY",
       "publishedAt": "2026-11-24T07:27:38.913662+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:39.643147+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:13.328757+00:00",
     "mainCategory": "全国有名花火大会",
-    "averageViews": 1008765,
+    "averageViews": 1008858,
     "engagementRate": 0.06,
     "channelType": "creator",
     "rankByViews": 2,
@@ -194,7 +195,7 @@
     "rankByAverageViews": 9
   },
   {
-    "id": "ch_342784",
+    "id": "ch_191669",
     "name": "ちゃんみな [CHANMINA]",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UConh1BwKagscq7EAP2Vng-g",
@@ -224,22 +225,22 @@
     "rankByAverageViews": 1
   },
   {
-    "id": "ch_852671",
+    "id": "ch_826102",
     "name": "Japan Explorers",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC2RZL3Ftu_lnV43zVrc3qOg",
     "thumbnailUrl": "https://i.ytimg.com/vi/cSJM78onjkA/hqdefault.jpg",
     "videoCount": 17,
-    "totalViews": 5045769,
-    "totalComments": 3239,
+    "totalViews": 5048423,
+    "totalComments": 3224,
     "videoIds": [
-      "yt_eQ4aF4VbWLg",
       "yt_f6VAO2knw08",
+      "yt_eQ4aF4VbWLg",
       "yt_1lgckpM9pXE",
-      "yt_maNOr7piliI",
-      "yt_cSJM78onjkA",
       "yt_KMpTiN26z0M",
       "yt_59Rn4F8bfY4",
+      "yt_maNOr7piliI",
+      "yt_cSJM78onjkA",
       "yt_1PWqx1T1EhA",
       "yt_C8khuKZUgOI",
       "yt_XOb7IzmTgj0",
@@ -260,9 +261,9 @@
       "videoUrl": "https://www.youtube.com/watch?v=cSJM78onjkA",
       "publishedAt": "2026-11-24T07:27:38.913643+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:39.643177+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:13.328742+00:00",
     "mainCategory": "大曲の花火（全国花火競技大会）",
-    "averageViews": 296809,
+    "averageViews": 296966,
     "engagementRate": 0.06,
     "channelType": "media",
     "rankByViews": 4,
@@ -270,7 +271,7 @@
     "rankByAverageViews": 18
   },
   {
-    "id": "ch_133498",
+    "id": "ch_226615",
     "name": "katou sino",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCMhgtIXaDMyCMjaJ7sT8RKg",
@@ -300,7 +301,7 @@
     "rankByAverageViews": 2
   },
   {
-    "id": "ch_226572",
+    "id": "ch_134647",
     "name": "Relaxation Time - 4K Amazing Relaxing Screensavers",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCMiW-YAIlZwVXp3Ip_akE_Q",
@@ -330,7 +331,7 @@
     "rankByAverageViews": 3
   },
   {
-    "id": "ch_242074",
+    "id": "ch_776681",
     "name": "hiramu55bocaboca",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCmBjxfjzM1qG43KYc86m66w",
@@ -361,14 +362,14 @@
     "rankByAverageViews": 5
   },
   {
-    "id": "ch_695113",
+    "id": "ch_35989",
     "name": "Japan Videography",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCUEON54Rd7Nc8qIYGXihlzg",
     "thumbnailUrl": "https://i.ytimg.com/vi/1GS6RG4i8YI/hqdefault.jpg",
     "videoCount": 1,
-    "totalViews": 4298492,
-    "totalComments": 2596,
+    "totalViews": 4298538,
+    "totalComments": 2587,
     "videoIds": [
       "yt_1GS6RG4i8YI"
     ],
@@ -376,14 +377,14 @@
       "id": "yt_1GS6RG4i8YI",
       "title": "世界一美しい日本の花火大会 4K高画質！1時間で巡る感動の芸術花火総集編 Beautiful Japanese Fireworks UHD",
       "thumbnailUrl": "https://i.ytimg.com/vi/1GS6RG4i8YI/hqdefault.jpg",
-      "viewCount": 4298492,
-      "commentCount": 2596,
+      "viewCount": 4298538,
+      "commentCount": 2587,
       "videoUrl": "https://www.youtube.com/watch?v=1GS6RG4i8YI",
-      "publishedAt": "2026-11-24T07:27:38.167348+00:00"
+      "publishedAt": "2026-11-24T21:40:11.921860+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:38.167348+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:11.921860+00:00",
     "mainCategory": "全国有名花火大会",
-    "averageViews": 4298492,
+    "averageViews": 4298538,
     "engagementRate": 0.06,
     "channelType": "media",
     "rankByViews": 8,
@@ -391,7 +392,7 @@
     "rankByAverageViews": 4
   },
   {
-    "id": "ch_382528",
+    "id": "ch_131006",
     "name": "Learn from the base",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCv8ZoZxvYcA3kEEl4Ct8J6w",
@@ -421,14 +422,14 @@
     "rankByAverageViews": 6
   },
   {
-    "id": "ch_334858",
+    "id": "ch_673786",
     "name": "【NCT】エヌ・シィ・ティ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCD9IbC6qsJrGqeXVs2gb46Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/tDWAeJqDesQ/hqdefault.jpg",
     "videoCount": 2,
-    "totalViews": 1306414,
-    "totalComments": 819,
+    "totalViews": 1308087,
+    "totalComments": 802,
     "videoIds": [
       "yt_jfUa7BJi-W0",
       "yt_tDWAeJqDesQ"
@@ -437,14 +438,14 @@
       "id": "yt_tDWAeJqDesQ",
       "title": "【4K】《8/2ライブ配信》2025.8.2長岡まつり大花火大会【NCT】Nagaoka Hanabi（Nagaoka Festival Grand Fireworks Show）",
       "thumbnailUrl": "https://i.ytimg.com/vi/tDWAeJqDesQ/hqdefault.jpg",
-      "viewCount": 660668,
-      "commentCount": 413,
+      "viewCount": 661497,
+      "commentCount": 411,
       "videoUrl": "https://www.youtube.com/watch?v=tDWAeJqDesQ",
-      "publishedAt": "2026-10-13T18:37:47.345901+00:00"
+      "publishedAt": "2026-11-24T21:40:12.640969+00:00"
     },
-    "latestPublishedAt": "2026-11-20T19:22:53.014522+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:12.641031+00:00",
     "mainCategory": "長岡まつり大花火大会",
-    "averageViews": 653207,
+    "averageViews": 654043,
     "engagementRate": 0.06,
     "channelType": "creator",
     "rankByViews": 10,
@@ -452,7 +453,7 @@
     "rankByAverageViews": 11
   },
   {
-    "id": "ch_267215",
+    "id": "ch_319020",
     "name": "1tsubame",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCUypKKKRf0VQlHJ7Eg5BXjQ",
@@ -484,7 +485,7 @@
     "rankByAverageViews": 15
   },
   {
-    "id": "ch_276422",
+    "id": "ch_774851",
     "name": "Japan Fireworks Scenery (Insta)",
     "platform": "instagram",
     "url": "https://www.instagram.com/Japan Fireworks Scenery (Insta)/",
@@ -502,9 +503,9 @@
       "viewCount": 1240000,
       "commentCount": 890,
       "videoUrl": "https://www.instagram.com/reel/C8kP2Yqv12a/",
-      "publishedAt": "2026-11-24T07:27:41.976059+00:00"
+      "publishedAt": "2026-11-24T21:40:15.357520+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:41.976059+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:15.357520+00:00",
     "mainCategory": "長岡まつり大花火大会",
     "averageViews": 1240000,
     "engagementRate": 0.07,
@@ -514,7 +515,7 @@
     "rankByAverageViews": 7
   },
   {
-    "id": "ch_446027",
+    "id": "ch_311295",
     "name": "Hirox410",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCGyE7SF0H7fPzZJv_NCkd6A",
@@ -544,7 +545,7 @@
     "rankByAverageViews": 8
   },
   {
-    "id": "ch_383127",
+    "id": "ch_760587",
     "name": "熱海花火アーカイブ",
     "platform": "instagram",
     "url": "https://www.instagram.com/熱海花火アーカイブ/",
@@ -562,9 +563,9 @@
       "viewCount": 850000,
       "commentCount": 540,
       "videoUrl": "https://www.instagram.com/reel/C9X9h_9SO7Z/",
-      "publishedAt": "2026-11-24T07:27:41.976034+00:00"
+      "publishedAt": "2026-11-24T21:40:15.357501+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:41.976034+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:15.357501+00:00",
     "mainCategory": "熱海海上花火大会",
     "averageViews": 850000,
     "engagementRate": 0.06,
@@ -574,7 +575,7 @@
     "rankByAverageViews": 10
   },
   {
-    "id": "ch_359467",
+    "id": "ch_941109",
     "name": "TOKYO Nightscape (インスタ)",
     "platform": "instagram",
     "url": "https://www.instagram.com/TOKYO Nightscape (インスタ)/",
@@ -592,9 +593,9 @@
       "viewCount": 620000,
       "commentCount": 380,
       "videoUrl": "https://www.instagram.com/reel/C7mN4Qpx98b/",
-      "publishedAt": "2026-11-24T07:27:41.976075+00:00"
+      "publishedAt": "2026-11-24T21:40:15.357533+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:41.976075+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:15.357533+00:00",
     "mainCategory": "隅田川花火大会",
     "averageViews": 620000,
     "engagementRate": 0.06,
@@ -604,18 +605,18 @@
     "rankByAverageViews": 12
   },
   {
-    "id": "ch_659799",
+    "id": "ch_143463",
     "name": "中日新聞",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCfD9k0fXeyRlYiMHaBLzS3Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/pwRZmX0f8a4/hqdefault.jpg",
     "videoCount": 4,
-    "totalViews": 584261,
-    "totalComments": 390,
+    "totalViews": 584280,
+    "totalComments": 393,
     "videoIds": [
+      "yt_1qolxNuSrxo",
       "yt_pwRZmX0f8a4",
       "yt_GWIPODPLDms",
-      "yt_1qolxNuSrxo",
       "yt_xkqw5YOEZ_8"
     ],
     "topVideo": {
@@ -627,23 +628,23 @@
       "videoUrl": "https://www.youtube.com/watch?v=pwRZmX0f8a4",
       "publishedAt": "2026-11-24T07:27:38.167407+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:38.167407+00:00",
-    "mainCategory": "びわ湖大花火大会",
-    "averageViews": 146065,
+    "latestPublishedAt": "2026-11-24T21:40:11.921911+00:00",
+    "mainCategory": "全国有名花火大会",
+    "averageViews": 146070,
     "engagementRate": 0.07,
     "channelType": "creator",
     "rankByViews": 16,
     "rankByComments": 15,
-    "rankByAverageViews": 35
+    "rankByAverageViews": 37
   },
   {
-    "id": "ch_338841",
+    "id": "ch_126836",
     "name": "日本の祭さん。#日本を祭で元気に",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC2hKtZSijj1oXK7Oe4jUdgQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/GeizhR78h8Q/hqdefault.jpg",
     "videoCount": 1,
-    "totalViews": 487417,
+    "totalViews": 487431,
     "totalComments": 300,
     "videoIds": [
       "yt_GeizhR78h8Q"
@@ -652,29 +653,29 @@
       "id": "yt_GeizhR78h8Q",
       "title": "隅田川花火大会 Sumida River Fireworks Festival 2026【花火配信🎇】東京下町の夏の風物詩",
       "thumbnailUrl": "https://i.ytimg.com/vi/GeizhR78h8Q/hqdefault.jpg",
-      "viewCount": 487417,
+      "viewCount": 487431,
       "commentCount": 300,
       "videoUrl": "https://www.youtube.com/watch?v=GeizhR78h8Q",
-      "publishedAt": "2026-11-23T23:00:41.328323+00:00"
+      "publishedAt": "2026-11-24T21:40:14.044548+00:00"
     },
-    "latestPublishedAt": "2026-11-23T23:00:41.328323+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:14.044548+00:00",
     "mainCategory": "隅田川花火大会",
-    "averageViews": 487417,
+    "averageViews": 487431,
     "engagementRate": 0.06,
     "channelType": "creator",
     "rankByViews": 17,
-    "rankByComments": 18,
+    "rankByComments": 19,
     "rankByAverageViews": 13
   },
   {
-    "id": "ch_864551",
+    "id": "ch_33796",
     "name": "お祭り男 / Festival Freak",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC8lBOMK1aGgLtvpOjkza48Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/les3ffdIlW8/hqdefault.jpg",
     "videoCount": 3,
-    "totalViews": 480460,
-    "totalComments": 298,
+    "totalViews": 480472,
+    "totalComments": 313,
     "videoIds": [
       "yt_0aQa_vD5SU8",
       "yt_M8bNnIQvEGs",
@@ -689,17 +690,17 @@
       "videoUrl": "https://www.youtube.com/watch?v=les3ffdIlW8",
       "publishedAt": "2026-10-06T17:33:10.547370+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:39.643194+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:13.328783+00:00",
     "mainCategory": "大曲の花火（全国花火競技大会）",
-    "averageViews": 160153,
-    "engagementRate": 0.06,
+    "averageViews": 160157,
+    "engagementRate": 0.07,
     "channelType": "creator",
     "rankByViews": 18,
-    "rankByComments": 20,
-    "rankByAverageViews": 31
+    "rankByComments": 17,
+    "rankByAverageViews": 30
   },
   {
-    "id": "ch_564697",
+    "id": "ch_920782",
     "name": "Yatsugatake21_4K_Japan",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCLJdRJVtwkUwFtp8_d6x2Yg",
@@ -726,11 +727,11 @@
     "engagementRate": 0.06,
     "channelType": "media",
     "rankByViews": 19,
-    "rankByComments": 17,
+    "rankByComments": 18,
     "rankByAverageViews": 21
   },
   {
-    "id": "ch_177656",
+    "id": "ch_655260",
     "name": "琵琶湖花火ファン (Instagram)",
     "platform": "instagram",
     "url": "https://www.instagram.com/琵琶湖花火ファン (Instagram)/",
@@ -748,26 +749,26 @@
       "viewCount": 450000,
       "commentCount": 290,
       "videoUrl": "https://www.instagram.com/reel/C9aB5C_y12z/",
-      "publishedAt": "2026-11-24T07:27:41.976090+00:00"
+      "publishedAt": "2026-11-24T21:40:15.357545+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:41.976090+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:15.357545+00:00",
     "mainCategory": "びわ湖大花火大会",
     "averageViews": 450000,
     "engagementRate": 0.06,
     "channelType": "creator",
     "rankByViews": 20,
-    "rankByComments": 21,
+    "rankByComments": 20,
     "rankByAverageViews": 14
   },
   {
-    "id": "ch_703570",
+    "id": "ch_542370",
     "name": "satake8080",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCgL5ahJWXfAC8It4xAep_GA",
     "thumbnailUrl": "https://i.ytimg.com/vi/9ViexED8xlQ/hqdefault.jpg",
     "videoCount": 4,
-    "totalViews": 437937,
-    "totalComments": 300,
+    "totalViews": 437950,
+    "totalComments": 288,
     "videoIds": [
       "yt_5Df465V0AW0",
       "yt_fznB3z8UOek",
@@ -783,17 +784,17 @@
       "videoUrl": "https://www.youtube.com/watch?v=9ViexED8xlQ",
       "publishedAt": "2026-11-02T20:59:10.102239+00:00"
     },
-    "latestPublishedAt": "2026-11-19T04:54:15.124863+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:13.328769+00:00",
     "mainCategory": "大曲の花火（全国花火競技大会）",
-    "averageViews": 109484,
+    "averageViews": 109487,
     "engagementRate": 0.07,
     "channelType": "creator",
     "rankByViews": 21,
-    "rankByComments": 19,
-    "rankByAverageViews": 39
+    "rankByComments": 21,
+    "rankByAverageViews": 40
   },
   {
-    "id": "ch_24820",
+    "id": "ch_681554",
     "name": "MBS NEWS",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCkKJhKO73xF1pK5h9R82ZGQ",
@@ -824,21 +825,21 @@
     "rankByAverageViews": 25
   },
   {
-    "id": "ch_930109",
+    "id": "ch_630039",
     "name": "CHILLOUTPLANET",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCh55pp34VSRC_tXf8hF-sZw",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZpiHKFdKduo/hqdefault.jpg",
     "videoCount": 6,
-    "totalViews": 335524,
-    "totalComments": 247,
+    "totalViews": 335550,
+    "totalComments": 261,
     "videoIds": [
       "yt_5BcfDLWByf8",
+      "yt_OkYki8SLbBM",
       "yt_kwLWtMM-SQk",
       "yt_L08TPNeBme8",
       "yt_ZpiHKFdKduo",
-      "yt_kETxuNcEV4w",
-      "yt_OkYki8SLbBM"
+      "yt_kETxuNcEV4w"
     ],
     "topVideo": {
       "id": "yt_ZpiHKFdKduo",
@@ -849,17 +850,17 @@
       "videoUrl": "https://www.youtube.com/watch?v=ZpiHKFdKduo",
       "publishedAt": "2026-11-18T19:42:50.389977+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:40.465964+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:14.044584+00:00",
     "mainCategory": "隅田川花火大会",
-    "averageViews": 55920,
-    "engagementRate": 0.07,
+    "averageViews": 55925,
+    "engagementRate": 0.08,
     "channelType": "creator",
     "rankByViews": 23,
     "rankByComments": 23,
-    "rankByAverageViews": 46
+    "rankByAverageViews": 47
   },
   {
-    "id": "ch_407038",
+    "id": "ch_334034",
     "name": "エキテンチャンネル",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC3pem9SX0jNZfSK2svUxtyw",
@@ -889,7 +890,7 @@
     "rankByAverageViews": 16
   },
   {
-    "id": "ch_709685",
+    "id": "ch_427520",
     "name": "endsfireworks99",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCmhmQI9ZqTBX3_0sRXIC7Tg",
@@ -917,10 +918,10 @@
     "channelType": "creator",
     "rankByViews": 25,
     "rankByComments": 25,
-    "rankByAverageViews": 30
+    "rankByAverageViews": 29
   },
   {
-    "id": "ch_275281",
+    "id": "ch_407511",
     "name": "GoPro",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCqhnX4jA0A5paNd1v-zEysw",
@@ -946,11 +947,42 @@
     "engagementRate": 0.06,
     "channelType": "creator",
     "rankByViews": 26,
-    "rankByComments": 26,
+    "rankByComments": 27,
     "rankByAverageViews": 17
   },
   {
-    "id": "ch_628437",
+    "id": "ch_399384",
+    "name": "18歲u7夢",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/channel/UCAz9OPvXF6Xeo-kr_SDl1ew",
+    "thumbnailUrl": "https://i.ytimg.com/vi/bq4m5Br6c4g/hqdefault.jpg",
+    "videoCount": 2,
+    "totalViews": 303989,
+    "totalComments": 199,
+    "videoIds": [
+      "yt_JQythLJT2Uc",
+      "yt_bq4m5Br6c4g"
+    ],
+    "topVideo": {
+      "id": "yt_bq4m5Br6c4g",
+      "title": "花火急到本音都跑出來了!!!",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bq4m5Br6c4g/hqdefault.jpg",
+      "viewCount": 204599,
+      "commentCount": 136,
+      "videoUrl": "https://www.youtube.com/watch?v=bq4m5Br6c4g",
+      "publishedAt": "2026-11-22T18:47:54.089018+00:00"
+    },
+    "latestPublishedAt": "2026-11-24T21:40:14.722999+00:00",
+    "mainCategory": "日本の花火厳選",
+    "averageViews": 151994,
+    "engagementRate": 0.07,
+    "channelType": "creator",
+    "rankByViews": 27,
+    "rankByComments": 26,
+    "rankByAverageViews": 34
+  },
+  {
+    "id": "ch_985914",
     "name": "ウェザーニュース",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCNsidkYpIAQ4QaufptQBPHQ",
@@ -976,12 +1008,12 @@
     "averageViews": 130254,
     "engagementRate": 0.07,
     "channelType": "media",
-    "rankByViews": 27,
-    "rankByComments": 27,
-    "rankByAverageViews": 37
+    "rankByViews": 28,
+    "rankByComments": 28,
+    "rankByAverageViews": 38
   },
   {
-    "id": "ch_378054",
+    "id": "ch_61272",
     "name": "【TKG】 39",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCkj-pTnXayewsIuYZi2Ll_A",
@@ -1006,19 +1038,19 @@
     "averageViews": 240129,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 28,
-    "rankByComments": 28,
+    "rankByViews": 29,
+    "rankByComments": 29,
     "rankByAverageViews": 19
   },
   {
-    "id": "ch_729415",
+    "id": "ch_323579",
     "name": "Discover Nippon",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC2TVKHmfay8tpr_kii8xGRw",
     "thumbnailUrl": "https://i.ytimg.com/vi/3gIW82Z1MqM/hqdefault.jpg",
     "videoCount": 1,
-    "totalViews": 237807,
-    "totalComments": 151,
+    "totalViews": 237809,
+    "totalComments": 148,
     "videoIds": [
       "yt_3gIW82Z1MqM"
     ],
@@ -1026,22 +1058,22 @@
       "id": "yt_3gIW82Z1MqM",
       "title": "4K 隅田川花火大会  東京の夏 浅草観光  Sumida River Fireworks Tokyo trip 夏祭り 旅行  Asakusa Travel",
       "thumbnailUrl": "https://i.ytimg.com/vi/3gIW82Z1MqM/hqdefault.jpg",
-      "viewCount": 237807,
-      "commentCount": 151,
+      "viewCount": 237809,
+      "commentCount": 148,
       "videoUrl": "https://www.youtube.com/watch?v=3gIW82Z1MqM",
-      "publishedAt": "2026-11-24T07:27:40.465938+00:00"
+      "publishedAt": "2026-11-24T21:40:14.044574+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:40.465938+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:14.044574+00:00",
     "mainCategory": "隅田川花火大会",
-    "averageViews": 237807,
+    "averageViews": 237809,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 29,
-    "rankByComments": 30,
+    "rankByViews": 30,
+    "rankByComments": 31,
     "rankByAverageViews": 20
   },
   {
-    "id": "ch_342483",
+    "id": "ch_347821",
     "name": "Guiano",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCAwt148qKLXzPF3LHfN76Bw",
@@ -1066,42 +1098,42 @@
     "averageViews": 236338,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 30,
-    "rankByComments": 32,
+    "rankByViews": 31,
+    "rankByComments": 33,
     "rankByAverageViews": 22
   },
   {
-    "id": "ch_922293",
-    "name": "18歲u7夢",
-    "platform": "youtube",
-    "url": "https://www.youtube.com/channel/UCAz9OPvXF6Xeo-kr_SDl1ew",
-    "thumbnailUrl": "https://i.ytimg.com/vi/bq4m5Br6c4g/hqdefault.jpg",
+    "id": "ch_855006",
+    "name": "長岡花火ファン",
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@長岡花火ファン",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop",
     "videoCount": 1,
-    "totalViews": 204599,
-    "totalComments": 136,
+    "totalViews": 199302,
+    "totalComments": 121,
     "videoIds": [
-      "yt_bq4m5Br6c4g"
+      "tt_7262804593450372353"
     ],
     "topVideo": {
-      "id": "yt_bq4m5Br6c4g",
-      "title": "花火急到本音都跑出來了!!!",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bq4m5Br6c4g/hqdefault.jpg",
-      "viewCount": 204599,
-      "commentCount": 136,
-      "videoUrl": "https://www.youtube.com/watch?v=bq4m5Br6c4g",
-      "publishedAt": "2026-11-22T18:47:54.089018+00:00"
+      "id": "tt_7262804593450372353",
+      "title": "視界180度を超える復興祈願花火フェニックスの迫力！鳥肌が止まらない… #長岡花火 #フェニックス",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop",
+      "viewCount": 199302,
+      "commentCount": 121,
+      "videoUrl": "https://www.tiktok.com/@nagaoka_fan/video/7262804593450372353",
+      "publishedAt": "2026-11-24T21:40:15.266482+00:00"
     },
-    "latestPublishedAt": "2026-11-22T18:47:54.089018+00:00",
-    "mainCategory": "日本の花火厳選",
-    "averageViews": 204599,
-    "engagementRate": 0.07,
-    "channelType": "creator",
-    "rankByViews": 31,
-    "rankByComments": 34,
+    "latestPublishedAt": "2026-11-24T21:40:15.266482+00:00",
+    "mainCategory": "長岡まつり大花火大会",
+    "averageViews": 199302,
+    "engagementRate": 0.06,
+    "channelType": "tiktoker",
+    "rankByViews": 32,
+    "rankByComments": 36,
     "rankByAverageViews": 23
   },
   {
-    "id": "ch_371955",
+    "id": "ch_417494",
     "name": "HANABI",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCz-xKxYhhdlSSQnl-kqEoyQ",
@@ -1126,12 +1158,12 @@
     "averageViews": 197576,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 32,
-    "rankByComments": 35,
+    "rankByViews": 33,
+    "rankByComments": 34,
     "rankByAverageViews": 24
   },
   {
-    "id": "ch_823160",
+    "id": "ch_366262",
     "name": "J:COMチャンネル・J:テレ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCblauYICxVZwZoACxUBt_UA",
@@ -1158,12 +1190,12 @@
     "averageViews": 60925,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 33,
-    "rankByComments": 36,
-    "rankByAverageViews": 45
+    "rankByViews": 34,
+    "rankByComments": 35,
+    "rankByAverageViews": 46
   },
   {
-    "id": "ch_643347",
+    "id": "ch_333992",
     "name": "ONLY in JAPAN * GO",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCDsvL48jluG3tvlyurB4K3g",
@@ -1188,12 +1220,12 @@
     "averageViews": 176521,
     "engagementRate": 0.06,
     "channelType": "media",
-    "rankByViews": 34,
-    "rankByComments": 38,
+    "rankByViews": 35,
+    "rankByComments": 40,
     "rankByAverageViews": 26
   },
   {
-    "id": "ch_524559",
+    "id": "ch_295770",
     "name": "CHANNEL TokyoTown",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCfY-A_dkXI8gse1uOe9SqGg",
@@ -1219,12 +1251,12 @@
     "averageViews": 87829,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 35,
-    "rankByComments": 37,
-    "rankByAverageViews": 41
+    "rankByViews": 36,
+    "rankByComments": 38,
+    "rankByAverageViews": 42
   },
   {
-    "id": "ch_422421",
+    "id": "ch_305665",
     "name": "花火アーカイブ",
     "platform": "youtube",
     "url": "https://www.youtube.com/results?search_query=%E8%8A%B1%E7%81%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96",
@@ -1253,12 +1285,12 @@
     "averageViews": 35000,
     "engagementRate": 0.09,
     "channelType": "media",
-    "rankByViews": 36,
-    "rankByComments": 29,
-    "rankByAverageViews": 53
+    "rankByViews": 37,
+    "rankByComments": 30,
+    "rankByAverageViews": 54
   },
   {
-    "id": "ch_650661",
+    "id": "ch_494870",
     "name": "ぷりん",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCRaRt6u5cEFPUyo5Mny1t1g",
@@ -1283,72 +1315,42 @@
     "averageViews": 172470,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 37,
-    "rankByComments": 39,
+    "rankByViews": 38,
+    "rankByComments": 41,
     "rankByAverageViews": 27
   },
   {
-    "id": "ch_25706",
-    "name": "長岡花火ファン",
+    "id": "ch_594737",
+    "name": "Japan Fireworks",
     "platform": "tiktok",
-    "url": "https://www.tiktok.com/@長岡花火ファン",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop",
+    "url": "https://www.tiktok.com/@Japan Fireworks",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?w=800&auto=format&fit=crop",
     "videoCount": 1,
-    "totalViews": 168343,
-    "totalComments": 104,
+    "totalViews": 167552,
+    "totalComments": 112,
     "videoIds": [
-      "tt_7262804593450372353"
+      "tt_7257912440156376322"
     ],
     "topVideo": {
-      "id": "tt_7262804593450372353",
-      "title": "視界180度を超える復興祈願花火フェニックスの迫力！鳥肌が止まらない… #長岡花火 #フェニックス",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop",
-      "viewCount": 168343,
-      "commentCount": 104,
-      "videoUrl": "https://www.tiktok.com/@nagaoka_fan/video/7262804593450372353",
-      "publishedAt": "2026-11-24T07:27:41.749011+00:00"
+      "id": "tt_7257912440156376322",
+      "title": "日本屈指の美しさ！夜空に咲く巨大な大輪スターマイン🎆 #花火 #fireworks #花火大会 #japan",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?w=800&auto=format&fit=crop",
+      "viewCount": 167552,
+      "commentCount": 112,
+      "videoUrl": "https://www.tiktok.com/@fireworks_japan/video/7257912440156376322",
+      "publishedAt": "2026-11-24T21:40:15.172456+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:41.749011+00:00",
-    "mainCategory": "長岡まつり大花火大会",
-    "averageViews": 168343,
-    "engagementRate": 0.06,
+    "latestPublishedAt": "2026-11-24T21:40:15.172456+00:00",
+    "mainCategory": "全国有名花火大会",
+    "averageViews": 167552,
+    "engagementRate": 0.07,
     "channelType": "tiktoker",
-    "rankByViews": 38,
-    "rankByComments": 41,
+    "rankByViews": 39,
+    "rankByComments": 39,
     "rankByAverageViews": 28
   },
   {
-    "id": "ch_669948",
-    "name": "Japan Night View",
-    "platform": "tiktok",
-    "url": "https://www.tiktok.com/@Japan Night View",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=800&auto=format&fit=crop",
-    "videoCount": 1,
-    "totalViews": 167185,
-    "totalComments": 105,
-    "videoIds": [
-      "tt_7271928401928374529"
-    ],
-    "topVideo": {
-      "id": "tt_7271928401928374529",
-      "title": "大曲の花火！最高峰の技術が詰まった光と音楽のシンフォニー #大曲の花火 #花火競技大会",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=800&auto=format&fit=crop",
-      "viewCount": 167185,
-      "commentCount": 105,
-      "videoUrl": "https://www.tiktok.com/@japan_night_view/video/7271928401928374529",
-      "publishedAt": "2026-11-24T07:27:41.975852+00:00"
-    },
-    "latestPublishedAt": "2026-11-24T07:27:41.975852+00:00",
-    "mainCategory": "大曲の花火（全国花火競技大会）",
-    "averageViews": 167185,
-    "engagementRate": 0.06,
-    "channelType": "tiktoker",
-    "rankByViews": 39,
-    "rankByComments": 40,
-    "rankByAverageViews": 29
-  },
-  {
-    "id": "ch_205577",
+    "id": "ch_322321",
     "name": "Machiko",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCG2AGsR2IadUiNO65t5oDVg",
@@ -1374,11 +1376,11 @@
     "engagementRate": 0.06,
     "channelType": "creator",
     "rankByViews": 40,
-    "rankByComments": 43,
-    "rankByAverageViews": 32
+    "rankByComments": 42,
+    "rankByAverageViews": 31
   },
   {
-    "id": "ch_424970",
+    "id": "ch_560062",
     "name": "Trip Meditation - relaxing music & 4k video",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCvdlpyp8ILevZ9UxJHuJzhA",
@@ -1404,11 +1406,71 @@
     "engagementRate": 0.06,
     "channelType": "creator",
     "rankByViews": 41,
-    "rankByComments": 44,
-    "rankByAverageViews": 34
+    "rankByComments": 43,
+    "rankByAverageViews": 33
   },
   {
-    "id": "ch_406101",
+    "id": "ch_534180",
+    "name": "Japan Night View",
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@Japan Night View",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=800&auto=format&fit=crop",
+    "videoCount": 1,
+    "totalViews": 147681,
+    "totalComments": 89,
+    "videoIds": [
+      "tt_7271928401928374529"
+    ],
+    "topVideo": {
+      "id": "tt_7271928401928374529",
+      "title": "大曲の花火！最高峰の技術が詰まった光と音楽のシンフォニー #大曲の花火 #花火競技大会",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=800&auto=format&fit=crop",
+      "viewCount": 147681,
+      "commentCount": 89,
+      "videoUrl": "https://www.tiktok.com/@japan_night_view/video/7271928401928374529",
+      "publishedAt": "2026-11-24T21:40:15.357391+00:00"
+    },
+    "latestPublishedAt": "2026-11-24T21:40:15.357391+00:00",
+    "mainCategory": "大曲の花火（全国花火競技大会）",
+    "averageViews": 147681,
+    "engagementRate": 0.06,
+    "channelType": "tiktoker",
+    "rankByViews": 42,
+    "rankByComments": 44,
+    "rankByAverageViews": 35
+  },
+  {
+    "id": "ch_200415",
+    "name": "だまっぴーdamappy",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/channel/UCDjGWH2jsnLutqsWaCqb4Hg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8ExZK00-i0A/hqdefault.jpg",
+    "videoCount": 1,
+    "totalViews": 147457,
+    "totalComments": 89,
+    "videoIds": [
+      "yt_8ExZK00-i0A"
+    ],
+    "topVideo": {
+      "id": "yt_8ExZK00-i0A",
+      "title": "【4K】長岡花火大会2018 フルver.復興祈願花火フェニックス～感動のフィナーレまで、全てお届け！ ＜Nagaoka Fireworks Festival 2018＞",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ExZK00-i0A/hqdefault.jpg",
+      "viewCount": 147457,
+      "commentCount": 89,
+      "videoUrl": "https://www.youtube.com/watch?v=8ExZK00-i0A",
+      "publishedAt": "2026-11-24T21:40:12.640985+00:00"
+    },
+    "latestPublishedAt": "2026-11-24T21:40:12.640985+00:00",
+    "mainCategory": "長岡まつり大花火大会",
+    "averageViews": 147457,
+    "engagementRate": 0.06,
+    "channelType": "creator",
+    "rankByViews": 43,
+    "rankByComments": 45,
+    "rankByAverageViews": 36
+  },
+  {
+    "id": "ch_636903",
     "name": "日テレNEWS",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCuTAXTexrhetbOe3zgskJBQ",
@@ -1436,42 +1498,12 @@
     "averageViews": 36577,
     "engagementRate": 0.1,
     "channelType": "media",
-    "rankByViews": 42,
-    "rankByComments": 31,
-    "rankByAverageViews": 52
+    "rankByViews": 44,
+    "rankByComments": 32,
+    "rankByAverageViews": 53
   },
   {
-    "id": "ch_415549",
-    "name": "Japan Fireworks",
-    "platform": "tiktok",
-    "url": "https://www.tiktok.com/@Japan Fireworks",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?w=800&auto=format&fit=crop",
-    "videoCount": 1,
-    "totalViews": 136238,
-    "totalComments": 99,
-    "videoIds": [
-      "tt_7257912440156376322"
-    ],
-    "topVideo": {
-      "id": "tt_7257912440156376322",
-      "title": "日本屈指の美しさ！夜空に咲く巨大な大輪スターマイン🎆 #花火 #fireworks #花火大会 #japan",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?w=800&auto=format&fit=crop",
-      "viewCount": 136238,
-      "commentCount": 99,
-      "videoUrl": "https://www.tiktok.com/@fireworks_japan/video/7257912440156376322",
-      "publishedAt": "2026-11-24T07:27:41.658074+00:00"
-    },
-    "latestPublishedAt": "2026-11-24T07:27:41.658074+00:00",
-    "mainCategory": "全国有名花火大会",
-    "averageViews": 136238,
-    "engagementRate": 0.07,
-    "channelType": "tiktoker",
-    "rankByViews": 43,
-    "rankByComments": 42,
-    "rankByAverageViews": 36
-  },
-  {
-    "id": "ch_360368",
+    "id": "ch_412284",
     "name": "CodyBPyrotechnics",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC8W9jxxFQBLM09yyd8iazlQ",
@@ -1496,12 +1528,12 @@
     "averageViews": 117064,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 44,
-    "rankByComments": 45,
-    "rankByAverageViews": 38
+    "rankByViews": 45,
+    "rankByComments": 46,
+    "rankByAverageViews": 39
   },
   {
-    "id": "ch_643363",
+    "id": "ch_603910",
     "name": "DIRECT Kaneko",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCnaF0tyAcaXjy00xbUrrbWg",
@@ -1527,12 +1559,12 @@
     "averageViews": 48024,
     "engagementRate": 0.08,
     "channelType": "creator",
-    "rankByViews": 45,
-    "rankByComments": 46,
-    "rankByAverageViews": 49
+    "rankByViews": 46,
+    "rankByComments": 47,
+    "rankByAverageViews": 50
   },
   {
-    "id": "ch_920670",
+    "id": "ch_24361",
     "name": "SuperCCB",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCGyw2oTJA7e1V2aCYwmiIQw",
@@ -1557,12 +1589,12 @@
     "averageViews": 95101,
     "engagementRate": 0.08,
     "channelType": "creator",
-    "rankByViews": 46,
-    "rankByComments": 47,
-    "rankByAverageViews": 40
+    "rankByViews": 47,
+    "rankByComments": 48,
+    "rankByAverageViews": 41
   },
   {
-    "id": "ch_904266",
+    "id": "ch_870359",
     "name": "kenty_cook",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCb58mfa8JEkT7Oak1EG0SLw",
@@ -1587,12 +1619,12 @@
     "averageViews": 85540,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 47,
-    "rankByComments": 48,
-    "rankByAverageViews": 42
+    "rankByViews": 48,
+    "rankByComments": 49,
+    "rankByAverageViews": 43
   },
   {
-    "id": "ch_641892",
+    "id": "ch_74561",
     "name": "ちんあなご",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC-iKt6xd8uD-8_kXRfPY7Jw",
@@ -1617,12 +1649,12 @@
     "averageViews": 69705,
     "engagementRate": 0.08,
     "channelType": "creator",
-    "rankByViews": 48,
-    "rankByComments": 49,
-    "rankByAverageViews": 43
+    "rankByViews": 49,
+    "rankByComments": 50,
+    "rankByAverageViews": 44
   },
   {
-    "id": "ch_332113",
+    "id": "ch_749769",
     "name": "lexycat - Topic",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC_p6qvvywr3Bt8vW5wi1paw",
@@ -1647,12 +1679,12 @@
     "averageViews": 67608,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 49,
-    "rankByComments": 50,
-    "rankByAverageViews": 44
+    "rankByViews": 50,
+    "rankByComments": 51,
+    "rankByAverageViews": 45
   },
   {
-    "id": "ch_180525",
+    "id": "ch_532716",
     "name": "くるり ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC_ZrBoNl9qiwp3oths9LcUA",
@@ -1677,12 +1709,12 @@
     "averageViews": 55057,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 50,
-    "rankByComments": 51,
-    "rankByAverageViews": 47
+    "rankByViews": 51,
+    "rankByComments": 53,
+    "rankByAverageViews": 48
   },
   {
-    "id": "ch_541548",
+    "id": "ch_346985",
     "name": "瓶顆旅居日本中",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC2Hw82qThyja9Y51K1YzhvQ",
@@ -1707,12 +1739,12 @@
     "averageViews": 52244,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 51,
-    "rankByComments": 55,
-    "rankByAverageViews": 48
+    "rankByViews": 52,
+    "rankByComments": 57,
+    "rankByAverageViews": 49
   },
   {
-    "id": "ch_71850",
+    "id": "ch_913851",
     "name": "Aki’s D",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCBuMZwvW2GlsWIpo82msSWw",
@@ -1737,12 +1769,12 @@
     "averageViews": 43151,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 52,
-    "rankByComments": 60,
-    "rankByAverageViews": 50
+    "rankByViews": 53,
+    "rankByComments": 61,
+    "rankByAverageViews": 51
   },
   {
-    "id": "ch_577833",
+    "id": "ch_753229",
     "name": "ポリ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCjI7zsGUUBvcrsgI76-5sKw",
@@ -1767,12 +1799,12 @@
     "averageViews": 43014,
     "engagementRate": 0.08,
     "channelType": "creator",
-    "rankByViews": 53,
-    "rankByComments": 53,
-    "rankByAverageViews": 51
+    "rankByViews": 54,
+    "rankByComments": 55,
+    "rankByAverageViews": 52
   },
   {
-    "id": "ch_399179",
+    "id": "ch_446010",
     "name": "にゃんこに花火に、その他の日常に非日常の日々チャンネル",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCR34jcCQvAYlhS3nub36axw",
@@ -1797,12 +1829,12 @@
     "averageViews": 35000,
     "engagementRate": 0.07,
     "channelType": "creator",
-    "rankByViews": 54,
-    "rankByComments": 67,
-    "rankByAverageViews": 54
+    "rankByViews": 55,
+    "rankByComments": 68,
+    "rankByAverageViews": 55
   },
   {
-    "id": "ch_19927",
+    "id": "ch_836172",
     "name": "船宿あみ清",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCuS18SHV5Nhqi9OtreOBmnA",
@@ -1827,12 +1859,12 @@
     "averageViews": 35000,
     "engagementRate": 0.1,
     "channelType": "creator",
-    "rankByViews": 55,
-    "rankByComments": 54,
-    "rankByAverageViews": 55
+    "rankByViews": 56,
+    "rankByComments": 56,
+    "rankByAverageViews": 56
   },
   {
-    "id": "ch_831453",
+    "id": "ch_292935",
     "name": "中国四川广播电视台 China SiChuanTV Official Channel—欢迎订阅!",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCT_o3s19ejpRw-Q-5Dp7Sqw",
@@ -1857,12 +1889,12 @@
     "averageViews": 34252,
     "engagementRate": 0.11,
     "channelType": "official",
-    "rankByViews": 56,
-    "rankByComments": 52,
-    "rankByAverageViews": 56
+    "rankByViews": 57,
+    "rankByComments": 54,
+    "rankByAverageViews": 57
   },
   {
-    "id": "ch_82348",
+    "id": "ch_550776",
     "name": "plum1853",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC906fqi1jCgcR3rJ4MrEs-w",
@@ -1887,12 +1919,12 @@
     "averageViews": 30215,
     "engagementRate": 0.1,
     "channelType": "creator",
-    "rankByViews": 57,
-    "rankByComments": 59,
-    "rankByAverageViews": 57
+    "rankByViews": 58,
+    "rankByComments": 60,
+    "rankByAverageViews": 58
   },
   {
-    "id": "ch_45215",
+    "id": "ch_228987",
     "name": "東京の街を歩く",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCdlh9tjWy7KBGjrplJ7sLdg",
@@ -1918,12 +1950,12 @@
     "averageViews": 14600,
     "engagementRate": 0.08,
     "channelType": "creator",
-    "rankByViews": 58,
-    "rankByComments": 65,
-    "rankByAverageViews": 67
+    "rankByViews": 59,
+    "rankByComments": 66,
+    "rankByAverageViews": 68
   },
   {
-    "id": "ch_669935",
+    "id": "ch_49906",
     "name": "Japan Travel Walk",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCEIyK0qlofzDykYBKGrwi5Q",
@@ -1948,12 +1980,12 @@
     "averageViews": 25000,
     "engagementRate": 0.12,
     "channelType": "media",
-    "rankByViews": 59,
-    "rankByComments": 58,
-    "rankByAverageViews": 58
+    "rankByViews": 60,
+    "rankByComments": 59,
+    "rankByAverageViews": 59
   },
   {
-    "id": "ch_628800",
+    "id": "ch_692137",
     "name": "Tokyo Views LIVE",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCaaSp7JYkACHR-Sr-p3OHeQ",
@@ -1978,12 +2010,12 @@
     "averageViews": 25000,
     "engagementRate": 0.13,
     "channelType": "creator",
-    "rankByViews": 60,
-    "rankByComments": 57,
-    "rankByAverageViews": 59
+    "rankByViews": 61,
+    "rankByComments": 58,
+    "rankByAverageViews": 60
   },
   {
-    "id": "ch_318380",
+    "id": "ch_177739",
     "name": "Takahiro Taguchi 田口隆寛　ぐっちーチャンネル",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCuCuSksd00t43-Tq4DaNN9Q",
@@ -2008,12 +2040,12 @@
     "averageViews": 23886,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 61,
+    "rankByViews": 62,
     "rankByComments": 84,
-    "rankByAverageViews": 60
+    "rankByAverageViews": 61
   },
   {
-    "id": "ch_568721",
+    "id": "ch_529790",
     "name": "Sony",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCVjS9AuBloqJJjhsy3vIfug",
@@ -2038,12 +2070,12 @@
     "averageViews": 21968,
     "engagementRate": 0.11,
     "channelType": "creator",
-    "rankByViews": 62,
-    "rankByComments": 64,
-    "rankByAverageViews": 61
+    "rankByViews": 63,
+    "rankByComments": 65,
+    "rankByAverageViews": 62
   },
   {
-    "id": "ch_691757",
+    "id": "ch_816717",
     "name": "Seiji Igusa 2nd Channel",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCaRNZPguH4Pb3Lz_VR3Fj9Q",
@@ -2068,12 +2100,12 @@
     "averageViews": 21630,
     "engagementRate": 0.12,
     "channelType": "creator",
-    "rankByViews": 63,
-    "rankByComments": 62,
-    "rankByAverageViews": 62
+    "rankByViews": 64,
+    "rankByComments": 63,
+    "rankByAverageViews": 63
   },
   {
-    "id": "ch_978024",
+    "id": "ch_159628",
     "name": "芒果TV音乐 MangoTV Music",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCwnDGKPgpRsJUjuSGhATAmg",
@@ -2098,12 +2130,12 @@
     "averageViews": 19350,
     "engagementRate": 0.12,
     "channelType": "media",
-    "rankByViews": 64,
-    "rankByComments": 66,
-    "rankByAverageViews": 63
+    "rankByViews": 65,
+    "rankByComments": 67,
+    "rankByAverageViews": 64
   },
   {
-    "id": "ch_699621",
+    "id": "ch_220798",
     "name": "青云剧场short-drama",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCqVCnpiy8ZYQOx15vmlJzkQ",
@@ -2128,12 +2160,12 @@
     "averageViews": 18528,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 65,
-    "rankByComments": 88,
-    "rankByAverageViews": 64
+    "rankByViews": 66,
+    "rankByComments": 87,
+    "rankByAverageViews": 65
   },
   {
-    "id": "ch_624913",
+    "id": "ch_560022",
     "name": "カメラのキタムラ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCuPvM83uruscoLX9Kz88yCw",
@@ -2158,12 +2190,12 @@
     "averageViews": 18313,
     "engagementRate": 0.09,
     "channelType": "creator",
-    "rankByViews": 66,
-    "rankByComments": 74,
-    "rankByAverageViews": 65
+    "rankByViews": 67,
+    "rankByComments": 76,
+    "rankByAverageViews": 66
   },
   {
-    "id": "ch_511858",
+    "id": "ch_351255",
     "name": "The Infinity Rohit",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCJaj_nKNmJuzg3Bmwh4WkVg",
@@ -2189,19 +2221,19 @@
     "averageViews": 7701,
     "engagementRate": 0.17,
     "channelType": "creator",
-    "rankByViews": 67,
-    "rankByComments": 63,
-    "rankByAverageViews": 74
+    "rankByViews": 68,
+    "rankByComments": 64,
+    "rankByAverageViews": 75
   },
   {
-    "id": "ch_200920",
+    "id": "ch_948903",
     "name": "Studio Kama",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCpRvTiOsPOE-xjWniNbBxtA",
     "thumbnailUrl": "https://i.ytimg.com/vi/kOfkqxAF8MI/hqdefault.jpg",
     "videoCount": 3,
-    "totalViews": 15173,
-    "totalComments": 34,
+    "totalViews": 15175,
+    "totalComments": 43,
     "videoIds": [
       "yt_kOfkqxAF8MI",
       "yt_aT4DrBaNqfE",
@@ -2211,22 +2243,22 @@
       "id": "yt_kOfkqxAF8MI",
       "title": "【4K】かごしま錦江湾サマーナイト大花火大会 -2026-",
       "thumbnailUrl": "https://i.ytimg.com/vi/kOfkqxAF8MI/hqdefault.jpg",
-      "viewCount": 13279,
-      "commentCount": 9,
+      "viewCount": 13281,
+      "commentCount": 18,
       "videoUrl": "https://www.youtube.com/watch?v=kOfkqxAF8MI",
-      "publishedAt": "2026-11-24T07:27:38.167380+00:00"
+      "publishedAt": "2026-11-24T21:40:11.921923+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:38.167380+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:11.921923+00:00",
     "mainCategory": "全国有名花火大会",
-    "averageViews": 5057,
-    "engagementRate": 0.22,
+    "averageViews": 5058,
+    "engagementRate": 0.28,
     "channelType": "creator",
-    "rankByViews": 68,
-    "rankByComments": 56,
-    "rankByAverageViews": 82
+    "rankByViews": 69,
+    "rankByComments": 52,
+    "rankByAverageViews": 83
   },
   {
-    "id": "ch_870521",
+    "id": "ch_107558",
     "name": "CHILL OUT PLANET2",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCeXo2Z02AnsCAnLEhgye71w",
@@ -2251,19 +2283,19 @@
     "averageViews": 14783,
     "engagementRate": 0.06,
     "channelType": "creator",
-    "rankByViews": 69,
-    "rankByComments": 93,
-    "rankByAverageViews": 66
+    "rankByViews": 70,
+    "rankByComments": 92,
+    "rankByAverageViews": 67
   },
   {
-    "id": "ch_563376",
+    "id": "ch_476955",
     "name": "船長のロープワーク Captain's Ropework",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UClTzSRr62DniltTj6NdPdAg",
     "thumbnailUrl": "https://i.ytimg.com/vi/akXXpHCP9FA/hqdefault.jpg",
     "videoCount": 1,
-    "totalViews": 14062,
-    "totalComments": 10,
+    "totalViews": 14074,
+    "totalComments": 23,
     "videoIds": [
       "yt_akXXpHCP9FA"
     ],
@@ -2271,29 +2303,29 @@
       "id": "yt_akXXpHCP9FA",
       "title": "【船から観る】東京•隅田川花火大会2026【4K•HDR】圧巻のフィナーレ",
       "thumbnailUrl": "https://i.ytimg.com/vi/akXXpHCP9FA/hqdefault.jpg",
-      "viewCount": 14062,
-      "commentCount": 10,
+      "viewCount": 14074,
+      "commentCount": 23,
       "videoUrl": "https://www.youtube.com/watch?v=akXXpHCP9FA",
-      "publishedAt": "2026-11-24T07:27:40.465892+00:00"
+      "publishedAt": "2026-11-24T21:40:14.044526+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:40.465892+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:14.044526+00:00",
     "mainCategory": "隅田川花火大会",
-    "averageViews": 14062,
-    "engagementRate": 0.07,
+    "averageViews": 14074,
+    "engagementRate": 0.16,
     "channelType": "creator",
-    "rankByViews": 70,
-    "rankByComments": 91,
-    "rankByAverageViews": 68
+    "rankByViews": 71,
+    "rankByComments": 69,
+    "rankByAverageViews": 69
   },
   {
-    "id": "ch_601473",
+    "id": "ch_154101",
     "name": "欢愉使徒",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCTFdZJqPL9H4cSfnRvRUf1A",
     "thumbnailUrl": "https://i.ytimg.com/vi/6ZLRxRmgKHM/hqdefault.jpg",
     "videoCount": 1,
-    "totalViews": 14058,
-    "totalComments": 16,
+    "totalViews": 14066,
+    "totalComments": 11,
     "videoIds": [
       "yt_6ZLRxRmgKHM"
     ],
@@ -2301,22 +2333,22 @@
       "id": "yt_6ZLRxRmgKHM",
       "title": "【星穹铁道/花火】在《雾里》，我欢愉得像个星神！",
       "thumbnailUrl": "https://i.ytimg.com/vi/6ZLRxRmgKHM/hqdefault.jpg",
-      "viewCount": 14058,
-      "commentCount": 16,
+      "viewCount": 14066,
+      "commentCount": 11,
       "videoUrl": "https://www.youtube.com/watch?v=6ZLRxRmgKHM",
-      "publishedAt": "2026-11-23T23:00:43.006589+00:00"
+      "publishedAt": "2026-11-24T21:40:14.722980+00:00"
     },
-    "latestPublishedAt": "2026-11-23T23:00:43.006589+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:14.722980+00:00",
     "mainCategory": "日本の花火厳選",
-    "averageViews": 14058,
-    "engagementRate": 0.11,
+    "averageViews": 14066,
+    "engagementRate": 0.08,
     "channelType": "creator",
-    "rankByViews": 71,
-    "rankByComments": 80,
-    "rankByAverageViews": 69
+    "rankByViews": 72,
+    "rankByComments": 88,
+    "rankByAverageViews": 70
   },
   {
-    "id": "ch_572282",
+    "id": "ch_317428",
     "name": "koma_205 Fireworks",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCgxiVU89VWSCFeI91JT3Tog",
@@ -2342,12 +2374,42 @@
     "averageViews": 5581,
     "engagementRate": 0.21,
     "channelType": "creator",
-    "rankByViews": 72,
-    "rankByComments": 68,
-    "rankByAverageViews": 79
+    "rankByViews": 73,
+    "rankByComments": 70,
+    "rankByAverageViews": 80
   },
   {
-    "id": "ch_936624",
+    "id": "ch_683113",
+    "name": "YouYou",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/channel/UCx9lbUd6R6dV44JwbpXJVsA",
+    "thumbnailUrl": "https://i.ytimg.com/vi/cmlrFYhLRv8/hqdefault.jpg",
+    "videoCount": 1,
+    "totalViews": 10808,
+    "totalComments": 9,
+    "videoIds": [
+      "yt_cmlrFYhLRv8"
+    ],
+    "topVideo": {
+      "id": "yt_cmlrFYhLRv8",
+      "title": "【崩壞：星穹鐵道】花火/調查中",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cmlrFYhLRv8/hqdefault.jpg",
+      "viewCount": 10808,
+      "commentCount": 9,
+      "videoUrl": "https://www.youtube.com/watch?v=cmlrFYhLRv8",
+      "publishedAt": "2026-11-24T21:40:14.723011+00:00"
+    },
+    "latestPublishedAt": "2026-11-24T21:40:14.723011+00:00",
+    "mainCategory": "日本の花火厳選",
+    "averageViews": 10808,
+    "engagementRate": 0.08,
+    "channelType": "creator",
+    "rankByViews": 74,
+    "rankByComments": 93,
+    "rankByAverageViews": 71
+  },
+  {
+    "id": "ch_66581",
     "name": "Beautiful Japan-TV",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC3BSEOPDiYPzAmjKBpmJ5UA",
@@ -2372,42 +2434,12 @@
     "averageViews": 10764,
     "engagementRate": 0.07,
     "channelType": "media",
-    "rankByViews": 73,
-    "rankByComments": 96,
-    "rankByAverageViews": 70
+    "rankByViews": 75,
+    "rankByComments": 97,
+    "rankByAverageViews": 72
   },
   {
-    "id": "ch_437791",
-    "name": "YouYou",
-    "platform": "youtube",
-    "url": "https://www.youtube.com/channel/UCx9lbUd6R6dV44JwbpXJVsA",
-    "thumbnailUrl": "https://i.ytimg.com/vi/cmlrFYhLRv8/hqdefault.jpg",
-    "videoCount": 1,
-    "totalViews": 10613,
-    "totalComments": 14,
-    "videoIds": [
-      "yt_cmlrFYhLRv8"
-    ],
-    "topVideo": {
-      "id": "yt_cmlrFYhLRv8",
-      "title": "【崩壞：星穹鐵道】花火/調查中",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cmlrFYhLRv8/hqdefault.jpg",
-      "viewCount": 10613,
-      "commentCount": 14,
-      "videoUrl": "https://www.youtube.com/watch?v=cmlrFYhLRv8",
-      "publishedAt": "2026-11-15T03:38:34.971636+00:00"
-    },
-    "latestPublishedAt": "2026-11-15T03:38:34.971636+00:00",
-    "mainCategory": "日本の花火厳選",
-    "averageViews": 10613,
-    "engagementRate": 0.13,
-    "channelType": "creator",
-    "rankByViews": 74,
-    "rankByComments": 85,
-    "rankByAverageViews": 71
-  },
-  {
-    "id": "ch_176606",
+    "id": "ch_564048",
     "name": "Neon NuFreeza",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCthnizIhoqn4zzbxNvOG3HA",
@@ -2432,12 +2464,12 @@
     "averageViews": 10112,
     "engagementRate": 0.09,
     "channelType": "creator",
-    "rankByViews": 75,
+    "rankByViews": 76,
     "rankByComments": 94,
-    "rankByAverageViews": 72
+    "rankByAverageViews": 73
   },
   {
-    "id": "ch_729771",
+    "id": "ch_402102",
     "name": "Aakash",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCdc5Wt-wAncciz9rNXtc2RQ",
@@ -2464,12 +2496,12 @@
     "averageViews": 3367,
     "engagementRate": 0.27,
     "channelType": "creator",
-    "rankByViews": 76,
-    "rankByComments": 61,
-    "rankByAverageViews": 85
+    "rankByViews": 77,
+    "rankByComments": 62,
+    "rankByAverageViews": 86
   },
   {
-    "id": "ch_321395",
+    "id": "ch_949115",
     "name": "Kurohana66",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCZgeTM2z1Vi3H9KlIwWC9dQ",
@@ -2494,12 +2526,12 @@
     "averageViews": 8557,
     "engagementRate": 0.13,
     "channelType": "creator",
-    "rankByViews": 77,
+    "rankByViews": 78,
     "rankByComments": 89,
-    "rankByAverageViews": 73
+    "rankByAverageViews": 74
   },
   {
-    "id": "ch_782444",
+    "id": "ch_868837",
     "name": "WALKER JAPAN 4k",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCmLh-Ixzv3hClQRWCH0oh2Q",
@@ -2524,12 +2556,12 @@
     "averageViews": 7311,
     "engagementRate": 0.05,
     "channelType": "media",
-    "rankByViews": 78,
-    "rankByComments": 106,
-    "rankByAverageViews": 75
+    "rankByViews": 79,
+    "rankByComments": 107,
+    "rankByAverageViews": 76
   },
   {
-    "id": "ch_502013",
+    "id": "ch_232290",
     "name": "REIWA_JAPAN",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCnR1SAPFlmMbkODlk3xZq6Q",
@@ -2554,12 +2586,12 @@
     "averageViews": 6260,
     "engagementRate": 0.13,
     "channelType": "media",
-    "rankByViews": 79,
-    "rankByComments": 97,
-    "rankByAverageViews": 76
+    "rankByViews": 80,
+    "rankByComments": 98,
+    "rankByAverageViews": 77
   },
   {
-    "id": "ch_11532",
+    "id": "ch_946614",
     "name": "kibunya123",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC9BDZ2XI3Kmv8AblQp_Fu7A",
@@ -2584,12 +2616,12 @@
     "averageViews": 5961,
     "engagementRate": 0.29,
     "channelType": "creator",
-    "rankByViews": 80,
-    "rankByComments": 75,
-    "rankByAverageViews": 77
+    "rankByViews": 81,
+    "rankByComments": 77,
+    "rankByAverageViews": 78
   },
   {
-    "id": "ch_977241",
+    "id": "ch_866818",
     "name": "RIZIN【ブルーインパルスのならではチャンネル】",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCtp-l4esuNbGu7PPAnzF3TQ",
@@ -2614,12 +2646,12 @@
     "averageViews": 5841,
     "engagementRate": 0.29,
     "channelType": "creator",
-    "rankByViews": 81,
-    "rankByComments": 76,
-    "rankByAverageViews": 78
+    "rankByViews": 82,
+    "rankByComments": 78,
+    "rankByAverageViews": 79
   },
   {
-    "id": "ch_165799",
+    "id": "ch_244970",
     "name": "HB-TN",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCrNlnHPqsP-rO52sHCc-M3w",
@@ -2644,12 +2676,12 @@
     "averageViews": 5321,
     "engagementRate": 0.28,
     "channelType": "creator",
-    "rankByViews": 82,
+    "rankByViews": 83,
     "rankByComments": 82,
-    "rankByAverageViews": 80
+    "rankByAverageViews": 81
   },
   {
-    "id": "ch_812859",
+    "id": "ch_815991",
     "name": "ゆあさの休日。",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCf_ead0-fXmJDx9C_xBmJxQ",
@@ -2674,12 +2706,12 @@
     "averageViews": 5304,
     "engagementRate": 0.32,
     "channelType": "creator",
-    "rankByViews": 83,
-    "rankByComments": 77,
-    "rankByAverageViews": 81
+    "rankByViews": 84,
+    "rankByComments": 79,
+    "rankByAverageViews": 82
   },
   {
-    "id": "ch_368149",
+    "id": "ch_854143",
     "name": "daizu29",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCsM3QtyMC8vsnLOcR929WYQ",
@@ -2704,12 +2736,12 @@
     "averageViews": 4833,
     "engagementRate": 0.43,
     "channelType": "creator",
-    "rankByViews": 84,
-    "rankByComments": 69,
-    "rankByAverageViews": 83
+    "rankByViews": 85,
+    "rankByComments": 71,
+    "rankByAverageViews": 84
   },
   {
-    "id": "ch_852684",
+    "id": "ch_511841",
     "name": "中京テレビNEWS",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCxiRdfyH0FtFCRZTRfRsdsA",
@@ -2734,19 +2766,19 @@
     "averageViews": 4623,
     "engagementRate": 0.13,
     "channelType": "media",
-    "rankByViews": 85,
-    "rankByComments": 101,
-    "rankByAverageViews": 84
+    "rankByViews": 86,
+    "rankByComments": 102,
+    "rankByAverageViews": 85
   },
   {
-    "id": "ch_804905",
+    "id": "ch_653550",
     "name": "nagaokahanabi",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCt7QSdNITWlwCqmBm99lQtw",
     "thumbnailUrl": "https://i.ytimg.com/vi/bIn_D1ItVkU/hqdefault.jpg",
     "videoCount": 15,
     "totalViews": 3376,
-    "totalComments": 141,
+    "totalComments": 121,
     "videoIds": [
       "yt_haFDEbsRVfI",
       "yt_9JhPYjFNnxU",
@@ -2769,21 +2801,21 @@
       "title": "2016年8月2日 長岡まつり大花火大会 復興祈願花火「フェニックス」／フェニックス２０１６",
       "thumbnailUrl": "https://i.ytimg.com/vi/bIn_D1ItVkU/hqdefault.jpg",
       "viewCount": 885,
-      "commentCount": 15,
+      "commentCount": 19,
       "videoUrl": "https://www.youtube.com/watch?v=bIn_D1ItVkU",
       "publishedAt": "2016-08-02T15:08:27+00:00"
     },
     "latestPublishedAt": "2016-08-05T10:25:37+00:00",
     "mainCategory": "長岡まつり大花火大会",
     "averageViews": 225,
-    "engagementRate": 4.18,
+    "engagementRate": 3.58,
     "channelType": "creator",
-    "rankByViews": 86,
-    "rankByComments": 33,
-    "rankByAverageViews": 109
+    "rankByViews": 87,
+    "rankByComments": 37,
+    "rankByAverageViews": 110
   },
   {
-    "id": "ch_472125",
+    "id": "ch_635079",
     "name": "初恋シアター",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC09WY1eTmw2nXv8_eXWRl3w",
@@ -2808,12 +2840,12 @@
     "averageViews": 3150,
     "engagementRate": 0.54,
     "channelType": "creator",
-    "rankByViews": 87,
-    "rankByComments": 78,
-    "rankByAverageViews": 86
+    "rankByViews": 88,
+    "rankByComments": 80,
+    "rankByAverageViews": 87
   },
   {
-    "id": "ch_459937",
+    "id": "ch_626392",
     "name": "【公式】HOME広島ニュース",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCRnFGOp_mjaCYEhMzsE2iHA",
@@ -2838,12 +2870,12 @@
     "averageViews": 2883,
     "engagementRate": 0.21,
     "channelType": "official",
-    "rankByViews": 88,
-    "rankByComments": 102,
-    "rankByAverageViews": 87
+    "rankByViews": 89,
+    "rankByComments": 103,
+    "rankByAverageViews": 88
   },
   {
-    "id": "ch_490776",
+    "id": "ch_891774",
     "name": "I_ha__to ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UC8QbUwuId-VEbyGLJTrR4iw",
@@ -2868,12 +2900,12 @@
     "averageViews": 2721,
     "engagementRate": 0.4,
     "channelType": "creator",
-    "rankByViews": 89,
+    "rankByViews": 90,
     "rankByComments": 90,
-    "rankByAverageViews": 88
+    "rankByAverageViews": 89
   },
   {
-    "id": "ch_84798",
+    "id": "ch_656836",
     "name": "日本の花火 景色 -Japanese Fireworks Scenery-",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCqb8r20i4lPMxn-e7xA0cKg",
@@ -2899,12 +2931,12 @@
     "averageViews": 1284,
     "engagementRate": 0.82,
     "channelType": "media",
-    "rankByViews": 90,
-    "rankByComments": 70,
-    "rankByAverageViews": 94
+    "rankByViews": 91,
+    "rankByComments": 72,
+    "rankByAverageViews": 95
   },
   {
-    "id": "ch_283768",
+    "id": "ch_414591",
     "name": "soar的360旅行",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCDNtsC8HRfhnEAiGTUg94eg",
@@ -2929,12 +2961,12 @@
     "averageViews": 2180,
     "engagementRate": 0.05,
     "channelType": "creator",
-    "rankByViews": 91,
-    "rankByComments": 112,
-    "rankByAverageViews": 89
+    "rankByViews": 92,
+    "rankByComments": 113,
+    "rankByAverageViews": 90
   },
   {
-    "id": "ch_147688",
+    "id": "ch_26469",
     "name": "kinokhronika7777 / キノフロニカ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCVkYSribAjCOAgPW0qnX4wA",
@@ -2959,12 +2991,12 @@
     "averageViews": 1868,
     "engagementRate": 1.07,
     "channelType": "creator",
-    "rankByViews": 92,
-    "rankByComments": 71,
-    "rankByAverageViews": 90
+    "rankByViews": 93,
+    "rankByComments": 73,
+    "rankByAverageViews": 91
   },
   {
-    "id": "ch_636346",
+    "id": "ch_93390",
     "name": "RYU INAKA",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCYlWZyl88TmPLI9MTSjh19g",
@@ -2989,12 +3021,12 @@
     "averageViews": 1773,
     "engagementRate": 0.34,
     "channelType": "creator",
-    "rankByViews": 93,
-    "rankByComments": 103,
-    "rankByAverageViews": 91
+    "rankByViews": 94,
+    "rankByComments": 104,
+    "rankByAverageViews": 92
   },
   {
-    "id": "ch_349933",
+    "id": "ch_438512",
     "name": "ひろ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCsegOrdxcgyUj0XnNhwh8tg",
@@ -3019,12 +3051,12 @@
     "averageViews": 1657,
     "engagementRate": 0.84,
     "channelType": "creator",
-    "rankByViews": 94,
-    "rankByComments": 86,
-    "rankByAverageViews": 92
+    "rankByViews": 95,
+    "rankByComments": 85,
+    "rankByAverageViews": 93
   },
   {
-    "id": "ch_393277",
+    "id": "ch_724672",
     "name": "Lyndsay Crapdashian and 2 more",
     "platform": "youtube",
     "url": "https://www.youtube.com/results?search_query=Lyndsay%20Crapdashian%20and%202%20more",
@@ -3049,12 +3081,12 @@
     "averageViews": 1442,
     "engagementRate": 0.21,
     "channelType": "creator",
-    "rankByViews": 95,
-    "rankByComments": 108,
-    "rankByAverageViews": 93
+    "rankByViews": 96,
+    "rankByComments": 109,
+    "rankByAverageViews": 94
   },
   {
-    "id": "ch_900431",
+    "id": "ch_484366",
     "name": "東京トホホ倶楽部",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCjjP77C7kkg8_z7tI-yFkcA",
@@ -3079,12 +3111,12 @@
     "averageViews": 1208,
     "engagementRate": 1.57,
     "channelType": "creator",
-    "rankByViews": 96,
-    "rankByComments": 72,
-    "rankByAverageViews": 95
+    "rankByViews": 97,
+    "rankByComments": 74,
+    "rankByAverageViews": 96
   },
   {
-    "id": "ch_917212",
+    "id": "ch_747260",
     "name": "Kozy",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCIYPiLyNtBY357abrZnzaVw",
@@ -3109,12 +3141,12 @@
     "averageViews": 1124,
     "engagementRate": 0.44,
     "channelType": "creator",
-    "rankByViews": 97,
-    "rankByComments": 104,
-    "rankByAverageViews": 96
+    "rankByViews": 98,
+    "rankByComments": 105,
+    "rankByAverageViews": 97
   },
   {
-    "id": "ch_663194",
+    "id": "ch_334637",
     "name": "ぶら旅　〜ぶらっと気ままな旅動画〜",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCjcHmav5kZvgxYuvXQ0HeMA",
@@ -3139,12 +3171,12 @@
     "averageViews": 1109,
     "engagementRate": 0.09,
     "channelType": "creator",
-    "rankByViews": 98,
-    "rankByComments": 113,
-    "rankByAverageViews": 97
+    "rankByViews": 99,
+    "rankByComments": 114,
+    "rankByAverageViews": 98
   },
   {
-    "id": "ch_101492",
+    "id": "ch_471093",
     "name": "ドローンスクール東京グループ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCvPGGMMfEVrQ4Pmub5QpYlQ",
@@ -3169,12 +3201,12 @@
     "averageViews": 855,
     "engagementRate": 1.75,
     "channelType": "creator",
-    "rankByViews": 99,
+    "rankByViews": 100,
     "rankByComments": 83,
-    "rankByAverageViews": 98
+    "rankByAverageViews": 99
   },
   {
-    "id": "ch_374458",
+    "id": "ch_58615",
     "name": "Prabhavathy Makeup Artist",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCK0Et9TtB4X51me54L6n-4Q",
@@ -3199,12 +3231,12 @@
     "averageViews": 738,
     "engagementRate": 1.22,
     "channelType": "creator",
-    "rankByViews": 100,
+    "rankByViews": 101,
     "rankByComments": 95,
-    "rankByAverageViews": 99
+    "rankByAverageViews": 100
   },
   {
-    "id": "ch_787611",
+    "id": "ch_903607",
     "name": "IndianPyro FireworksFreak",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UClAQiItQ90mgkQ-QvSG6o6Q",
@@ -3229,12 +3261,12 @@
     "averageViews": 731,
     "engagementRate": 0.41,
     "channelType": "creator",
-    "rankByViews": 101,
-    "rankByComments": 109,
-    "rankByAverageViews": 100
+    "rankByViews": 102,
+    "rankByComments": 110,
+    "rankByAverageViews": 101
   },
   {
-    "id": "ch_731828",
+    "id": "ch_982017",
     "name": "MELLOW",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCUjwQKPC8UgOl8QzsUhj2wg",
@@ -3259,19 +3291,19 @@
     "averageViews": 724,
     "engagementRate": 0.28,
     "channelType": "creator",
-    "rankByViews": 102,
-    "rankByComments": 111,
-    "rankByAverageViews": 101
+    "rankByViews": 103,
+    "rankByComments": 112,
+    "rankByAverageViews": 102
   },
   {
-    "id": "ch_342954",
+    "id": "ch_387458",
     "name": "simonmossad",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCDyyWi4UtcWW4_3oY8RNC1w",
     "thumbnailUrl": "https://i.ytimg.com/vi/RQZYI5jPn_M/hqdefault.jpg",
     "videoCount": 1,
-    "totalViews": 594,
-    "totalComments": 17,
+    "totalViews": 596,
+    "totalComments": 9,
     "videoIds": [
       "yt_RQZYI5jPn_M"
     ],
@@ -3279,22 +3311,22 @@
       "id": "yt_RQZYI5jPn_M",
       "title": "2026 隅田川花火大会 ノーカット全編",
       "thumbnailUrl": "https://i.ytimg.com/vi/RQZYI5jPn_M/hqdefault.jpg",
-      "viewCount": 594,
-      "commentCount": 17,
+      "viewCount": 596,
+      "commentCount": 9,
       "videoUrl": "https://www.youtube.com/watch?v=RQZYI5jPn_M",
-      "publishedAt": "2026-11-24T07:27:40.465919+00:00"
+      "publishedAt": "2026-11-24T21:40:14.044560+00:00"
     },
-    "latestPublishedAt": "2026-11-24T07:27:40.465919+00:00",
+    "latestPublishedAt": "2026-11-24T21:40:14.044560+00:00",
     "mainCategory": "隅田川花火大会",
-    "averageViews": 594,
-    "engagementRate": 2.86,
+    "averageViews": 596,
+    "engagementRate": 1.51,
     "channelType": "creator",
-    "rankByViews": 103,
-    "rankByComments": 79,
-    "rankByAverageViews": 102
+    "rankByViews": 104,
+    "rankByComments": 96,
+    "rankByAverageViews": 103
   },
   {
-    "id": "ch_66923",
+    "id": "ch_114039",
     "name": "Daiichi-TV NEWS",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCNGwxGuezr6aSAn9IYk4F1Q",
@@ -3319,12 +3351,12 @@
     "averageViews": 582,
     "engagementRate": 0.0,
     "channelType": "media",
-    "rankByViews": 104,
-    "rankByComments": 114,
-    "rankByAverageViews": 103
+    "rankByViews": 105,
+    "rankByComments": 115,
+    "rankByAverageViews": 104
   },
   {
-    "id": "ch_167441",
+    "id": "ch_173701",
     "name": "FIREWORKSLOVER_SARVESH",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCYXnD85stE3tBg5I33HmoPg",
@@ -3349,12 +3381,12 @@
     "averageViews": 433,
     "engagementRate": 1.62,
     "channelType": "creator",
-    "rankByViews": 105,
-    "rankByComments": 99,
-    "rankByAverageViews": 104
+    "rankByViews": 106,
+    "rankByComments": 100,
+    "rankByAverageViews": 105
   },
   {
-    "id": "ch_545868",
+    "id": "ch_816448",
     "name": "Higumin ひぐみんの日常",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCeC-vPFoZa1G5nb_UcReYVw",
@@ -3379,12 +3411,12 @@
     "averageViews": 351,
     "engagementRate": 4.56,
     "channelType": "creator",
-    "rankByViews": 106,
+    "rankByViews": 107,
     "rankByComments": 81,
-    "rankByAverageViews": 105
+    "rankByAverageViews": 106
   },
   {
-    "id": "ch_190503",
+    "id": "ch_52264",
     "name": "Saha Entertainment TV",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCFL5PaI43KHfiK5wDu6KKDA",
@@ -3409,12 +3441,12 @@
     "averageViews": 294,
     "engagementRate": 4.08,
     "channelType": "media",
-    "rankByViews": 107,
-    "rankByComments": 87,
-    "rankByAverageViews": 106
+    "rankByViews": 108,
+    "rankByComments": 86,
+    "rankByAverageViews": 107
   },
   {
-    "id": "ch_405022",
+    "id": "ch_106898",
     "name": "異日常の案内人 　",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCULA18gqNWSiu-sh4dBIH4w",
@@ -3439,12 +3471,12 @@
     "averageViews": 281,
     "engagementRate": 2.49,
     "channelType": "creator",
-    "rankByViews": 108,
-    "rankByComments": 100,
-    "rankByAverageViews": 107
+    "rankByViews": 109,
+    "rankByComments": 101,
+    "rankByAverageViews": 108
   },
   {
-    "id": "ch_596859",
+    "id": "ch_662850",
     "name": "Afnan's Brother",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCd01LEM5s_0hP8DXpu4Qd1Q",
@@ -3469,12 +3501,12 @@
     "averageViews": 260,
     "engagementRate": 3.85,
     "channelType": "creator",
-    "rankByViews": 109,
-    "rankByComments": 92,
-    "rankByAverageViews": 108
+    "rankByViews": 110,
+    "rankByComments": 91,
+    "rankByAverageViews": 109
   },
   {
-    "id": "ch_399766",
+    "id": "ch_315590",
     "name": "STARstreamer YOSUKE",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCaHUGwcLfcGXai_D0nwluRw",
@@ -3499,12 +3531,12 @@
     "averageViews": 207,
     "engagementRate": 3.86,
     "channelType": "creator",
-    "rankByViews": 110,
-    "rankByComments": 98,
-    "rankByAverageViews": 110
+    "rankByViews": 111,
+    "rankByComments": 99,
+    "rankByAverageViews": 111
   },
   {
-    "id": "ch_849668",
+    "id": "ch_907148",
     "name": "高田屋公平 Takadaya Kouhei Marboh",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCIGilXLSQfqpiIDgXsswfLQ",
@@ -3529,12 +3561,12 @@
     "averageViews": 157,
     "engagementRate": 1.91,
     "channelType": "creator",
-    "rankByViews": 111,
-    "rankByComments": 110,
-    "rankByAverageViews": 111
+    "rankByViews": 112,
+    "rankByComments": 111,
+    "rankByAverageViews": 112
   },
   {
-    "id": "ch_39324",
+    "id": "ch_850602",
     "name": "सत्य ही सत्य है ",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCfAva9TDNzXA2eQWEjrK5hw",
@@ -3559,12 +3591,12 @@
     "averageViews": 98,
     "engagementRate": 5.1,
     "channelType": "creator",
-    "rankByViews": 112,
-    "rankByComments": 105,
-    "rankByAverageViews": 112
+    "rankByViews": 113,
+    "rankByComments": 106,
+    "rankByAverageViews": 113
   },
   {
-    "id": "ch_219251",
+    "id": "ch_131948",
     "name": "あかりんTV",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCtOuRUDnSPvFrm7GdLjTsgg",
@@ -3589,12 +3621,12 @@
     "averageViews": 57,
     "engagementRate": 31.58,
     "channelType": "media",
-    "rankByViews": 113,
-    "rankByComments": 73,
-    "rankByAverageViews": 113
+    "rankByViews": 114,
+    "rankByComments": 75,
+    "rankByAverageViews": 114
   },
   {
-    "id": "ch_687450",
+    "id": "ch_481304",
     "name": "Khoa Vo",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCMH54WUxCW1iIHW7yW2GWHw",
@@ -3619,12 +3651,12 @@
     "averageViews": 48,
     "engagementRate": 8.33,
     "channelType": "creator",
-    "rankByViews": 114,
-    "rankByComments": 107,
-    "rankByAverageViews": 114
+    "rankByViews": 115,
+    "rankByComments": 108,
+    "rankByAverageViews": 115
   },
   {
-    "id": "ch_361270",
+    "id": "ch_169593",
     "name": "Cjquintoph",
     "platform": "youtube",
     "url": "https://www.youtube.com/channel/UCSRNLb9ph5zR2kgtmGi0dEw",
@@ -3649,8 +3681,8 @@
     "averageViews": 44,
     "engagementRate": 0.0,
     "channelType": "creator",
-    "rankByViews": 115,
-    "rankByComments": 115,
-    "rankByAverageViews": 115
+    "rankByViews": 116,
+    "rankByComments": 116,
+    "rankByAverageViews": 116
   }
 ]
